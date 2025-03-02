@@ -89,6 +89,7 @@ app.get('/', (req, res) => {
 });
 
 app.get('/api/music-metadata', async (req, res) => {
+
     const filePath = path.join(__dirname, 'data', 'metadataList.json');
     fs.readFile(filePath, 'utf8', (err, data) => {
         if (err) {
@@ -97,9 +98,12 @@ app.get('/api/music-metadata', async (req, res) => {
         }
         res.json(JSON.parse(data));
     });
+
+    await update_md();
 });
 
 app.get('/api/artists', (req, res) => {
+    
     const artistsFilePath = path.join(__dirname, 'data', 'artists.json');
     const metadataFilePath = path.join(__dirname, 'data', 'metadataList.json');
     
@@ -112,6 +116,7 @@ app.get('/api/artists', (req, res) => {
         metadataList.forEach(metadata => {
             const artistName = metadata.artist || 'Unknown Artist';
             const songName = metadata.title || 'Unknown Title';
+            const fileName = metadata.file;
 
             if (!artistsMap[artistName]) {
                 artistsMap[artistName] = { name: artistName, songs: [] };
@@ -120,7 +125,7 @@ app.get('/api/artists', (req, res) => {
             // Use a Set to ensure unique songs
             const songSet = new Set(artistsMap[artistName].songs.map(song => song.song));
             if (!songSet.has(songName)) {
-                artistsMap[artistName].songs.push({ song: songName });
+                artistsMap[artistName].songs.push({ song: songName, file: fileName });
             }
         });
 
@@ -133,6 +138,8 @@ app.get('/api/artists', (req, res) => {
         res.status(500).json({ error: err.message });
     }
 
+    update_md();
+
 });
 
 app.get('/api/albums', async (req, res) => {
@@ -142,6 +149,7 @@ app.get('/api/albums', async (req, res) => {
     try {
         const metadataData = fs.readFileSync(metadataFilePath, 'utf8');
         const metadataList = JSON.parse(metadataData);
+        const fileName = metadata.file;
 
         const albumsMap = {};
 
@@ -153,7 +161,7 @@ app.get('/api/albums', async (req, res) => {
                 albumsMap[albumName] = { name: albumName, songs: [] };
             }
 
-            albumsMap[albumName].songs.push({ song: songName });
+            albumsMap[albumName].songs.push({ song: songName, file: fileName });
         });
 
         const albumsList = Object.values(albumsMap);
@@ -164,6 +172,8 @@ app.get('/api/albums', async (req, res) => {
     } catch (err) {
         res.status(500).json({ error: err.message });
     }
+
+    update_md();
 });
 
 app.get('/api/genres', async (req, res) => {
@@ -173,6 +183,7 @@ app.get('/api/genres', async (req, res) => {
     try {
         const metadataData = fs.readFileSync(metadataFilePath, 'utf8');
         const metadataList = JSON.parse(metadataData);
+        const fileName = metadata.file;
 
         const genresMap = {};
 
@@ -188,7 +199,7 @@ app.get('/api/genres', async (req, res) => {
                 // Use a Set to ensure unique songs
                 const songSet = new Set(genresMap[genre].songs.map(song => song.song));
                 if (!songSet.has(songName)) {
-                    genresMap[genre].songs.push({ song: songName });
+                    genresMap[genre].songs.push({ song: songName, file: fileName });
                 }
             });
         });
@@ -201,6 +212,8 @@ app.get('/api/genres', async (req, res) => {
     } catch (err) {
         res.status(500).json({ error: err.message });
     }
+
+    update_md();
 });
 
 app.listen(port, () => {
