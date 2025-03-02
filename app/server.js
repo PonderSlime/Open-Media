@@ -98,15 +98,35 @@ app.get('/api/music-metadata', async (req, res) => {
 });
 
 app.get('/api/artists', (req, res) => {
-    const filePath = path.join(__dirname, 'data', 'artists.json');
-    fs.readFile(filePath, 'utf8', (err, data) => {
-        if (err) {
-            res.status(500).json({ error: err.message });
-            return;
-        }
-        const artists = JSON.parse(data);
-        res.json(artists);
-    });
+    const artistsFilePath = path.join(__dirname, 'data', 'artists.json');
+    const metadataFilePath = path.join(__dirname, 'data', 'metadataList.json');
+    
+    try {
+        const metadataData = fs.readFileSync(metadataFilePath, 'utf8');
+        const metadataList = JSON.parse(metadataData);
+
+        const artistsMap = {};
+
+        metadataList.forEach(metadata => {
+            const artistName = metadata.artist || 'Unknown Artist';
+            const songName = metadata.title || 'Unknown Title';
+
+            if (!artistsMap[artistName]) {
+                artistsMap[artistName] = { name: artistName, songs: [] };
+            }
+
+            artistsMap[artistName].songs.push({ song: songName });
+        });
+
+        const artistsList = Object.values(artistsMap);
+
+        fs.writeFileSync(artistsFilePath, JSON.stringify(artistsList, null, 2), 'utf8');
+
+        res.json(artistsList);
+    } catch (err) {
+        res.status(500).json({ error: err.message });
+    }
+
 });
 
 app.listen(port, () => {

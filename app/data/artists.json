@@ -1,5 +1,4743 @@
 [
-    { "name": "Artist One" },
-    { "name": "Artist Two" },
-    { "name": "Artist", "songs": [{ "song": "song1name" }, { "song": "song2name"}] }
-  ]
+  {
+    "name": [
+      "for KING & COUNTRY"
+    ],
+    "songs": [
+      {
+        "song": "God Only Knows"
+      },
+      {
+        "song": "Fix My Eyes"
+      },
+      {
+        "song": "Burn The Ships"
+      },
+      {
+        "song": "joy."
+      },
+      {
+        "song": "God Only Knows"
+      },
+      {
+        "song": "Shoulders"
+      },
+      {
+        "song": "Fix My Eyes"
+      },
+      {
+        "song": "Burn The Ships"
+      },
+      {
+        "song": "joy."
+      },
+      {
+        "song": "God Only Knows"
+      },
+      {
+        "song": "Shoulders"
+      },
+      {
+        "song": "Priceless"
+      },
+      {
+        "song": "Shoulders"
+      },
+      {
+        "song": "It's Not Over Yet"
+      },
+      {
+        "song": "The Proof of Your Love"
+      },
+      {
+        "song": "Fix My Eyes"
+      },
+      {
+        "song": "God Only Knows"
+      }
+    ]
+  },
+  {
+    "name": [
+      "Howard Shore"
+    ],
+    "songs": [
+      {
+        "song": "Glamdring"
+      },
+      {
+        "song": "Elven Rope"
+      },
+      {
+        "song": "Lost In Emyn Muil"
+      },
+      {
+        "song": "My Precious"
+      },
+      {
+        "song": "Uglúk's Warriors"
+      },
+      {
+        "song": "The Three Hunters"
+      },
+      {
+        "song": "The Banishment Of Éomer"
+      },
+      {
+        "song": "Night Camp"
+      },
+      {
+        "song": "The Plains Of Rohan"
+      },
+      {
+        "song": "Fangorn"
+      },
+      {
+        "song": "Wraiths On Wings"
+      },
+      {
+        "song": "Gandalf The White"
+      },
+      {
+        "song": "The Dreams Of Trees"
+      },
+      {
+        "song": "The Heir Of Númenor"
+      },
+      {
+        "song": "Ent-Draught"
+      },
+      {
+        "song": "Edoras"
+      },
+      {
+        "song": "The Court Of Meduseld"
+      },
+      {
+        "song": "Théoden King"
+      },
+      {
+        "song": "The King's Decision"
+      },
+      {
+        "song": "Exodus From Edoras"
+      },
+      {
+        "song": "The Forests Of Ithilien"
+      },
+      {
+        "song": "One Of The Dúnedain"
+      },
+      {
+        "song": "The Wolves Of Isengard"
+      },
+      {
+        "song": "Refuge At Helms Deep"
+      },
+      {
+        "song": "The Voice Of Saruman"
+      },
+      {
+        "song": "Arwen's Fate"
+      },
+      {
+        "song": "The Story Foretold"
+      },
+      {
+        "song": "Sons Of The Steward"
+      },
+      {
+        "song": "Rock And Pool"
+      },
+      {
+        "song": "Faramir's Good Council"
+      },
+      {
+        "song": "Aragorn's Return"
+      },
+      {
+        "song": "War Is Upon Us"
+      },
+      {
+        "song": "Where Is The Horse And The Rider?"
+      },
+      {
+        "song": "The Host Of The Eldar"
+      },
+      {
+        "song": "The Battle Of The Hornburg"
+      },
+      {
+        "song": "The Breach Of The Deeping Wall"
+      },
+      {
+        "song": "The Entmoot Decides"
+      },
+      {
+        "song": "Retreat"
+      },
+      {
+        "song": "Master Peregrin's Plan"
+      },
+      {
+        "song": "The Last March Of The Ents"
+      },
+      {
+        "song": "The Nazgûl Attack"
+      },
+      {
+        "song": "Theoden Rides Forth"
+      },
+      {
+        "song": "The Tales That Really Matter"
+      },
+      {
+        "song": "Long Ways To Go Yet"
+      },
+      {
+        "song": "Prologue: One Ring To Rule Them All"
+      },
+      {
+        "song": "The Shire"
+      },
+      {
+        "song": "Bag End"
+      },
+      {
+        "song": "Very Old Friends"
+      },
+      {
+        "song": "Flaming Red Hair"
+      },
+      {
+        "song": "Farewell Dear Bilbo"
+      },
+      {
+        "song": "Keep It Secret, Keep It Safe"
+      },
+      {
+        "song": "A Conspiracy Unmasked"
+      },
+      {
+        "song": "Three Is Company"
+      },
+      {
+        "song": "The Passing Of The Elves"
+      },
+      {
+        "song": "Saruman The White"
+      },
+      {
+        "song": "A Shortcut To Mushrooms"
+      },
+      {
+        "song": "Strider"
+      },
+      {
+        "song": "The Nazgûl"
+      },
+      {
+        "song": "Weathertop"
+      },
+      {
+        "song": "The Caverns Of Isengard"
+      },
+      {
+        "song": "Give Up The Halfling"
+      },
+      {
+        "song": "Orthanc"
+      },
+      {
+        "song": "Rivendell"
+      },
+      {
+        "song": "The Sword That Was Broken"
+      },
+      {
+        "song": "The Council Of Elrond Assembles"
+      },
+      {
+        "song": "The Great Eye"
+      },
+      {
+        "song": "Gilraen's Memorial"
+      },
+      {
+        "song": "The Pass Of Caradhras"
+      },
+      {
+        "song": "The Doors Of Durin"
+      },
+      {
+        "song": "Moria"
+      },
+      {
+        "song": "Gollum"
+      },
+      {
+        "song": "Balin's Tomb"
+      },
+      {
+        "song": "Khazad-Dûm"
+      },
+      {
+        "song": "Caras Galadhon"
+      },
+      {
+        "song": "The Mirror Of Galadriel"
+      },
+      {
+        "song": "The Fighting Uruk-Hai"
+      },
+      {
+        "song": "Parth Galen"
+      },
+      {
+        "song": "The Departure Of Boromir"
+      },
+      {
+        "song": "The Road Goes Ever On... (Part 1)"
+      },
+      {
+        "song": "May It Be"
+      },
+      {
+        "song": "The Road Goes Ever On... (Part 2)"
+      },
+      {
+        "song": "Roots And Beginnings"
+      },
+      {
+        "song": "Journey To The Cross-Roads"
+      },
+      {
+        "song": "The Road To Isengard"
+      },
+      {
+        "song": "The Foot Of Orthanc"
+      },
+      {
+        "song": "Return To Edoras"
+      },
+      {
+        "song": "The Chalice Passed"
+      },
+      {
+        "song": "The Green Dragon"
+      },
+      {
+        "song": "Gollum's Villainy"
+      },
+      {
+        "song": "Éowyn's Dream"
+      },
+      {
+        "song": "Master Meriadoc, Swordthain"
+      },
+      {
+        "song": "The Palantír"
+      },
+      {
+        "song": "Flight From Edoras"
+      },
+      {
+        "song": "The Paths Of The Dead"
+      },
+      {
+        "song": "The Grace Of Undómiel"
+      },
+      {
+        "song": "The Siege Of Gondor"
+      },
+      {
+        "song": "Shelob's Lair"
+      },
+      {
+        "song": "The Eyes Of The White Tower"
+      },
+      {
+        "song": "A Coronal Of Silver And Gold"
+      },
+      {
+        "song": "Merry's Simple Courage"
+      },
+      {
+        "song": "The Lighting Of The Beacons"
+      },
+      {
+        "song": "Osgilliath Invaded"
+      },
+      {
+        "song": "The Stairs Of Cirith Ungol"
+      },
+      {
+        "song": "Allegiance To Denethor"
+      },
+      {
+        "song": "The Sacrifice Of Faramir"
+      },
+      {
+        "song": "The Parting Of Sam And Frodo"
+      },
+      {
+        "song": "Marshalling At Dunharrow"
+      },
+      {
+        "song": "Andúril - Flame Of The West"
+      },
+      {
+        "song": "The Passing Of The Grey Company"
+      },
+      {
+        "song": "Dwimorberg - The Haunted Mountain"
+      },
+      {
+        "song": "Grond - The Hammer Of The Underworld"
+      },
+      {
+        "song": "Shelob The Great"
+      },
+      {
+        "song": "The Tomb Of The Stewards"
+      },
+      {
+        "song": "The Battle Of The Pelennor Fields"
+      },
+      {
+        "song": "The Pyre Of Denethor"
+      },
+      {
+        "song": "The Mûmakil"
+      },
+      {
+        "song": "Dernhelm In Battle"
+      },
+      {
+        "song": "\"A Far Green Country\""
+      },
+      {
+        "song": "Shieldmaiden Of Rohan"
+      },
+      {
+        "song": "The Passing Of Théoden"
+      },
+      {
+        "song": "The Houses Of Healing"
+      },
+      {
+        "song": "The Tower Of Cirith Ungol"
+      },
+      {
+        "song": "The Last Debate"
+      },
+      {
+        "song": "The Land Of Shadow"
+      },
+      {
+        "song": "The Mouth Of Sauron"
+      },
+      {
+        "song": "\"For Frodo\""
+      },
+      {
+        "song": "Mount Doom"
+      },
+      {
+        "song": "The Crack Of Doom"
+      },
+      {
+        "song": "The Eagles"
+      },
+      {
+        "song": "The Fellowship Reunited"
+      },
+      {
+        "song": "The Journey To The Grey Havens"
+      },
+      {
+        "song": "Elanor"
+      },
+      {
+        "song": "Days Of The Ring"
+      },
+      {
+        "song": "Bilbo's Song"
+      },
+      {
+        "song": "Concerning Hobbits"
+      },
+      {
+        "song": "Concerning Hobbits"
+      }
+    ]
+  },
+  {
+    "name": [
+      "Panic! At The Disco"
+    ],
+    "songs": [
+      {
+        "song": "High Hopes"
+      },
+      {
+        "song": "King of the Clouds"
+      },
+      {
+        "song": "Hey Look Ma, I Made It"
+      },
+      {
+        "song": "House of Memories"
+      },
+      {
+        "song": "High Hopes"
+      },
+      {
+        "song": "King of the Clouds"
+      },
+      {
+        "song": "Hey Look Ma, I Made It"
+      },
+      {
+        "song": "House of Memories"
+      },
+      {
+        "song": "High Hopes"
+      },
+      {
+        "song": "King of the Clouds"
+      },
+      {
+        "song": "Hey Look Ma, I Made It"
+      },
+      {
+        "song": "House of Memories"
+      },
+      {
+        "song": "High Hopes"
+      },
+      {
+        "song": "King of the Clouds"
+      },
+      {
+        "song": "Hey Look Ma, I Made It"
+      },
+      {
+        "song": "House of Memories"
+      }
+    ]
+  },
+  {
+    "name": [
+      "Redefined"
+    ],
+    "songs": [
+      {
+        "song": "Pompeii"
+      },
+      {
+        "song": "Pompeii"
+      },
+      {
+        "song": "Pompeii"
+      },
+      {
+        "song": "Pompeii"
+      }
+    ]
+  },
+  {
+    "name": [
+      "Something Borrowed Something Blue"
+    ],
+    "songs": [
+      {
+        "song": "At Last, The King"
+      },
+      {
+        "song": "At Last, The King"
+      },
+      {
+        "song": "At Last, The King"
+      },
+      {
+        "song": "At Last, The King"
+      }
+    ]
+  },
+  {
+    "name": [
+      "Owl City"
+    ],
+    "songs": [
+      {
+        "song": "When Can I See You Again? - From \"Wreck-It Ralph\"/Soundtrack Version"
+      },
+      {
+        "song": "When Can I See You Again? - From \"Wreck-It Ralph\"/Soundtrack Version"
+      },
+      {
+        "song": "When Can I See You Again? - From \"Wreck-It Ralph\"/Soundtrack Version"
+      },
+      {
+        "song": "When Can I See You Again? - From \"Wreck-It Ralph\"/Soundtrack Version"
+      }
+    ]
+  },
+  {
+    "name": [
+      "Fall Out Boy"
+    ],
+    "songs": [
+      {
+        "song": "Immortals"
+      },
+      {
+        "song": "Immortals"
+      },
+      {
+        "song": "Immortals"
+      },
+      {
+        "song": "Immortals"
+      }
+    ]
+  },
+  {
+    "name": [
+      "Imagine Dragons"
+    ],
+    "songs": [
+      {
+        "song": "Whatever It Takes"
+      },
+      {
+        "song": "Whatever It Takes"
+      },
+      {
+        "song": "Rise Up"
+      },
+      {
+        "song": "Whatever It Takes"
+      },
+      {
+        "song": "Whatever It Takes"
+      },
+      {
+        "song": "Rise Up"
+      }
+    ]
+  },
+  {
+    "name": [
+      "American Authors"
+    ],
+    "songs": [
+      {
+        "song": "Best Day Of My Life"
+      },
+      {
+        "song": "Best Day Of My Life"
+      },
+      {
+        "song": "Best Day Of My Life"
+      },
+      {
+        "song": "Best Day Of My Life"
+      }
+    ]
+  },
+  {
+    "name": [
+      "Tori Kelly"
+    ],
+    "songs": [
+      {
+        "song": "Hallelujah - From \"Sing\" Original Motion Picture Soundtrack"
+      },
+      {
+        "song": "Hallelujah - From \"Sing\" Original Motion Picture Soundtrack"
+      },
+      {
+        "song": "Hallelujah - From \"Sing\" Original Motion Picture Soundtrack"
+      },
+      {
+        "song": "Hallelujah - From \"Sing\" Original Motion Picture Soundtrack"
+      }
+    ]
+  },
+  {
+    "name": [
+      "Stevie Wonder/Ariana Grande"
+    ],
+    "songs": [
+      {
+        "song": "Faith - From \"Sing\" Original Motion Picture Soundtrack"
+      },
+      {
+        "song": "Faith - From \"Sing\" Original Motion Picture Soundtrack"
+      },
+      {
+        "song": "Faith - From \"Sing\" Original Motion Picture Soundtrack"
+      },
+      {
+        "song": "Faith - From \"Sing\" Original Motion Picture Soundtrack"
+      }
+    ]
+  },
+  {
+    "name": [
+      "Kris Bowers"
+    ],
+    "songs": [
+      {
+        "song": "I Could Use a Boost"
+      },
+      {
+        "song": "I Could Use a Boost"
+      },
+      {
+        "song": "I Could Use a Boost"
+      },
+      {
+        "song": "I Could Use a Boost"
+      }
+    ]
+  },
+  {
+    "name": [
+      "Jonathan Groff/Original Broadway Cast of Hamilton"
+    ],
+    "songs": [
+      {
+        "song": "You'll Be Back"
+      },
+      {
+        "song": "You'll Be Back"
+      },
+      {
+        "song": "You'll Be Back"
+      },
+      {
+        "song": "You'll Be Back"
+      }
+    ]
+  },
+  {
+    "name": [
+      "Audiomachine"
+    ],
+    "songs": [
+      {
+        "song": "Leap of Faith"
+      },
+      {
+        "song": "Leap of Faith"
+      },
+      {
+        "song": "Leap of Faith"
+      },
+      {
+        "song": "Leap of Faith"
+      }
+    ]
+  },
+  {
+    "name": [
+      "Maren Morris"
+    ],
+    "songs": [
+      {
+        "song": "Kiss the Sky (from The Wild Robot)"
+      },
+      {
+        "song": "Kiss the Sky (from The Wild Robot)"
+      },
+      {
+        "song": "Kiss the Sky (from The Wild Robot)"
+      },
+      {
+        "song": "Kiss the Sky (from The Wild Robot)"
+      }
+    ]
+  },
+  {
+    "name": [
+      "Pharrell Williams/Nile Rodgers/Thomas Bangalter/Guy-Manuel de Homem-Christo/Daft Punk"
+    ],
+    "songs": [
+      {
+        "song": "Get Lucky (Radio Edit) [feat. Pharrell Williams and Nile Rodgers]"
+      },
+      {
+        "song": "Get Lucky (Radio Edit) [feat. Pharrell Williams and Nile Rodgers]"
+      }
+    ]
+  },
+  {
+    "name": [
+      "Casting Crowns"
+    ],
+    "songs": [
+      {
+        "song": "Oh My Soul"
+      },
+      {
+        "song": "Oh My Soul"
+      },
+      {
+        "song": "Oh My Soul"
+      },
+      {
+        "song": "Voice of Truth"
+      },
+      {
+        "song": "One Step Away"
+      },
+      {
+        "song": "Thrive"
+      },
+      {
+        "song": "East To West"
+      },
+      {
+        "song": "Who Am I"
+      },
+      {
+        "song": "Love Moved First"
+      },
+      {
+        "song": "Just Be Held"
+      },
+      {
+        "song": "Only Jesus"
+      }
+    ]
+  },
+  {
+    "name": [
+      "MercyMe"
+    ],
+    "songs": [
+      {
+        "song": "I Can Only Imagine"
+      },
+      {
+        "song": "Greater"
+      },
+      {
+        "song": "I Can Only Imagine"
+      },
+      {
+        "song": "Greater"
+      },
+      {
+        "song": "I Can Only Imagine"
+      },
+      {
+        "song": "Dear Younger Me"
+      },
+      {
+        "song": "Greater"
+      },
+      {
+        "song": "Word of God Speak"
+      },
+      {
+        "song": "Grace Got You"
+      },
+      {
+        "song": "Beautiful"
+      },
+      {
+        "song": "Ghost"
+      },
+      {
+        "song": "God with Us"
+      },
+      {
+        "song": "Finally Home"
+      },
+      {
+        "song": "Flawless"
+      },
+      {
+        "song": "Even If"
+      },
+      {
+        "song": "Best News Ever"
+      }
+    ]
+  },
+  {
+    "name": [
+      "Lauren Daigle"
+    ],
+    "songs": [
+      {
+        "song": "You Say"
+      },
+      {
+        "song": "Trust In You"
+      },
+      {
+        "song": "You Say"
+      },
+      {
+        "song": "Trust In You"
+      },
+      {
+        "song": "You Say"
+      },
+      {
+        "song": "How Can It Be"
+      },
+      {
+        "song": "Trust in You"
+      },
+      {
+        "song": "O' Lord - Radio Version"
+      },
+      {
+        "song": "Come Alive (Dry Bones)"
+      },
+      {
+        "song": "Look Up Child"
+      },
+      {
+        "song": "Still Rolling Stones"
+      },
+      {
+        "song": "Trust In You"
+      },
+      {
+        "song": "First"
+      }
+    ]
+  },
+  {
+    "name": [
+      "Elevation Worship"
+    ],
+    "songs": [
+      {
+        "song": "O Come to the Altar (Live)"
+      },
+      {
+        "song": "O Come to the Altar (Live)"
+      },
+      {
+        "song": "O Come to the Altar (Live)"
+      },
+      {
+        "song": "Graves Into Gardens (Studio)"
+      },
+      {
+        "song": "Same God - Radio Version"
+      }
+    ]
+  },
+  {
+    "name": [
+      "Tauren Wells"
+    ],
+    "songs": [
+      {
+        "song": "Hills and Valleys (The Valleys Version)"
+      },
+      {
+        "song": "Hills and Valleys (The Valleys Version)"
+      },
+      {
+        "song": "Hills and Valleys (The Valleys Version)"
+      },
+      {
+        "song": "Known"
+      },
+      {
+        "song": "Like You Love Me"
+      },
+      {
+        "song": "Miracle"
+      },
+      {
+        "song": "Joy In The Morning"
+      }
+    ]
+  },
+  {
+    "name": [
+      "Phil Wickham"
+    ],
+    "songs": [
+      {
+        "song": "This Is Amazing Grace"
+      },
+      {
+        "song": "This Is Amazing Grace"
+      },
+      {
+        "song": "This Is Amazing Grace"
+      },
+      {
+        "song": "This Is Our God"
+      },
+      {
+        "song": "Battle Belongs"
+      }
+    ]
+  },
+  {
+    "name": [
+      "Chris Tomlin"
+    ],
+    "songs": [
+      {
+        "song": "Our God"
+      },
+      {
+        "song": "How Great Is Our God"
+      },
+      {
+        "song": "Our God"
+      },
+      {
+        "song": "How Great Is Our God"
+      },
+      {
+        "song": "Home"
+      },
+      {
+        "song": "Indescribable"
+      },
+      {
+        "song": "Our God"
+      },
+      {
+        "song": "How Great Is Our God"
+      },
+      {
+        "song": "Good Good Father"
+      },
+      {
+        "song": "At The Cross (Love Ran Red)"
+      }
+    ]
+  },
+  {
+    "name": [
+      "Big Daddy Weave"
+    ],
+    "songs": [
+      {
+        "song": "Redeemed"
+      },
+      {
+        "song": "The Lion and the Lamb"
+      },
+      {
+        "song": "My Story"
+      },
+      {
+        "song": "Redeemed"
+      },
+      {
+        "song": "The Lion and the Lamb"
+      },
+      {
+        "song": "My Story"
+      },
+      {
+        "song": "The Only Name (Yours Will Be)"
+      },
+      {
+        "song": "Jesus I Believe"
+      },
+      {
+        "song": "Redeemed"
+      },
+      {
+        "song": "The Lion and the Lamb"
+      },
+      {
+        "song": "My Story"
+      },
+      {
+        "song": "My Story"
+      },
+      {
+        "song": "Overwhelmed"
+      }
+    ]
+  },
+  {
+    "name": [
+      "Matthew West"
+    ],
+    "songs": [
+      {
+        "song": "Hello, My Name Is"
+      },
+      {
+        "song": "Hello, My Name Is"
+      },
+      {
+        "song": "Strong Enough"
+      },
+      {
+        "song": "Mended"
+      },
+      {
+        "song": "Grace Wins"
+      },
+      {
+        "song": "Mended - Radio Edit"
+      },
+      {
+        "song": "The Beautiful Things We Miss"
+      },
+      {
+        "song": "Love on the Radio"
+      },
+      {
+        "song": "Hello, My Name Is"
+      },
+      {
+        "song": "Broken Things"
+      },
+      {
+        "song": "All In"
+      },
+      {
+        "song": "Mercy Is A Song"
+      }
+    ]
+  },
+  {
+    "name": [
+      "Newsboys"
+    ],
+    "songs": [
+      {
+        "song": "We Believe"
+      },
+      {
+        "song": "God's Not Dead (Like A Lion)"
+      },
+      {
+        "song": "We Believe"
+      },
+      {
+        "song": "God's Not Dead (Like A Lion)"
+      },
+      {
+        "song": "We Believe"
+      }
+    ]
+  },
+  {
+    "name": [
+      "Hillsong Worship/Brooke Ligertwood"
+    ],
+    "songs": [
+      {
+        "song": "What A Beautiful Name"
+      },
+      {
+        "song": "What A Beautiful Name"
+      },
+      {
+        "song": "What A Beautiful Name"
+      }
+    ]
+  },
+  {
+    "name": [
+      "Third Day/All Sons & Daughters"
+    ],
+    "songs": [
+      {
+        "song": "Soul On Fire (feat. All Sons & Daughters) (feat. All Sons & Daughters)"
+      },
+      {
+        "song": "Soul On Fire (feat. All Sons & Daughters) (feat. All Sons & Daughters)"
+      },
+      {
+        "song": "Soul On Fire (feat. All Sons & Daughters) (feat. All Sons & Daughters)"
+      }
+    ]
+  },
+  {
+    "name": [
+      "Jeremy Camp"
+    ],
+    "songs": [
+      {
+        "song": "Christ In Me"
+      },
+      {
+        "song": "Christ In Me"
+      },
+      {
+        "song": "Same Power"
+      },
+      {
+        "song": "Getting Started"
+      },
+      {
+        "song": "Dead Man Walking"
+      },
+      {
+        "song": "Keep Me In The Moment - Radio Version"
+      },
+      {
+        "song": "Anxious Heart"
+      },
+      {
+        "song": "Christ In Me"
+      },
+      {
+        "song": "He Knows"
+      },
+      {
+        "song": "Here I Am To Worship"
+      }
+    ]
+  },
+  {
+    "name": [
+      "Unspoken"
+    ],
+    "songs": [
+      {
+        "song": "Start A Fire"
+      },
+      {
+        "song": "Start A Fire"
+      },
+      {
+        "song": "Call It Grace"
+      },
+      {
+        "song": "Good Fight"
+      },
+      {
+        "song": "Lift My Life Up"
+      },
+      {
+        "song": "The Cure"
+      },
+      {
+        "song": "Start A Fire"
+      }
+    ]
+  },
+  {
+    "name": [
+      "one sonic society"
+    ],
+    "songs": [
+      {
+        "song": "Great Are You Lord"
+      },
+      {
+        "song": "Great Are You Lord"
+      },
+      {
+        "song": "Great Are You Lord"
+      }
+    ]
+  },
+  {
+    "name": [
+      "Sidewalk Prophets"
+    ],
+    "songs": [
+      {
+        "song": "Come To the Table"
+      },
+      {
+        "song": "Come To the Table"
+      },
+      {
+        "song": "Save My Life"
+      },
+      {
+        "song": "The Words I Would Say"
+      },
+      {
+        "song": "You Love Me Anyway"
+      },
+      {
+        "song": "To Live Is Christ"
+      },
+      {
+        "song": "Prodigal"
+      },
+      {
+        "song": "Help Me Find It"
+      },
+      {
+        "song": "Live Like That"
+      },
+      {
+        "song": "Come To the Table"
+      }
+    ]
+  },
+  {
+    "name": [
+      "Stephen Stanley"
+    ],
+    "songs": [
+      {
+        "song": "No Hopeless Soul"
+      },
+      {
+        "song": "No Hopeless Soul"
+      },
+      {
+        "song": "No Hopeless Soul"
+      }
+    ]
+  },
+  {
+    "name": [
+      "Rend Collective"
+    ],
+    "songs": [
+      {
+        "song": "My Lighthouse"
+      },
+      {
+        "song": "My Lighthouse"
+      }
+    ]
+  },
+  {
+    "name": [
+      "TobyMac"
+    ],
+    "songs": [
+      {
+        "song": "Love Broke Thru"
+      },
+      {
+        "song": "I just need U."
+      },
+      {
+        "song": "Speak Life"
+      },
+      {
+        "song": "Love Broke Thru"
+      },
+      {
+        "song": "I just need U."
+      },
+      {
+        "song": "Speak Life"
+      },
+      {
+        "song": "Love Broke Thru"
+      }
+    ]
+  },
+  {
+    "name": [
+      "Micah Tyler"
+    ],
+    "songs": [
+      {
+        "song": "Even Then"
+      },
+      {
+        "song": "Even Then"
+      },
+      {
+        "song": "Different"
+      },
+      {
+        "song": "Never Been a Moment"
+      },
+      {
+        "song": "Even Then"
+      },
+      {
+        "song": "Walking Free"
+      },
+      {
+        "song": "I See Grace"
+      }
+    ]
+  },
+  {
+    "name": [
+      "Jordan Feliz"
+    ],
+    "songs": [
+      {
+        "song": "The River"
+      },
+      {
+        "song": "The River"
+      },
+      {
+        "song": "Beloved"
+      },
+      {
+        "song": "The River"
+      },
+      {
+        "song": "Never Too Far Gone"
+      }
+    ]
+  },
+  {
+    "name": [
+      "for KING & COUNTRY/Kirk Franklin/Tori Kelly"
+    ],
+    "songs": [
+      {
+        "song": "TOGETHER"
+      },
+      {
+        "song": "TOGETHER"
+      }
+    ]
+  },
+  {
+    "name": [
+      "Hugh Jackman/Zac Efron"
+    ],
+    "songs": [
+      {
+        "song": "The Other Side"
+      },
+      {
+        "song": "The Other Side"
+      }
+    ]
+  },
+  {
+    "name": [
+      "Michelle Williams"
+    ],
+    "songs": [
+      {
+        "song": "Tightrope"
+      },
+      {
+        "song": "Tightrope"
+      }
+    ]
+  },
+  {
+    "name": [
+      "AJR"
+    ],
+    "songs": [
+      {
+        "song": "Hole in the Bottom of My Brain"
+      },
+      {
+        "song": "100 Bad Days"
+      },
+      {
+        "song": "Hole in the Bottom of My Brain"
+      },
+      {
+        "song": "100 Bad Days"
+      }
+    ]
+  },
+  {
+    "name": [
+      "Pentatonix/Lindsey Stirling"
+    ],
+    "songs": [
+      {
+        "song": "Radioactive"
+      },
+      {
+        "song": "Over The River (feat. Lindsey Stirling)"
+      },
+      {
+        "song": "Radioactive"
+      },
+      {
+        "song": "Over The River (feat. Lindsey Stirling)"
+      }
+    ]
+  },
+  {
+    "name": [
+      "The Band JAREN"
+    ],
+    "songs": [
+      {
+        "song": "Fill The Streets"
+      },
+      {
+        "song": "Fill The Streets"
+      }
+    ]
+  },
+  {
+    "name": [
+      "Jared Halley"
+    ],
+    "songs": [
+      {
+        "song": "Sky Full of Stars"
+      },
+      {
+        "song": "Sky Full of Stars"
+      }
+    ]
+  },
+  {
+    "name": [
+      "Timothée Chalamet/The Cast of Wonka"
+    ],
+    "songs": [
+      {
+        "song": "A World of Your Own"
+      },
+      {
+        "song": "A World of Your Own"
+      }
+    ]
+  },
+  {
+    "name": [
+      "Cynthia Erivo/Ariana Grande"
+    ],
+    "songs": [
+      {
+        "song": "Defying Gravity"
+      },
+      {
+        "song": "Defying Gravity"
+      },
+      {
+        "song": "Defying Gravity"
+      },
+      {
+        "song": "Defying Gravity"
+      }
+    ]
+  },
+  {
+    "name": [
+      "Auli'i Cravalho/Disney/Rachel House"
+    ],
+    "songs": [
+      {
+        "song": "Beyond"
+      },
+      {
+        "song": "Beyond"
+      }
+    ]
+  },
+  {
+    "name": [
+      "Dwayne Johnson/Disney"
+    ],
+    "songs": [
+      {
+        "song": "Can I Get A Chee Hoo?"
+      },
+      {
+        "song": "Can I Get A Chee Hoo?"
+      }
+    ]
+  },
+  {
+    "name": [
+      "Jacob Shea/Hans Zimmer/David Fleming"
+    ],
+    "songs": [
+      {
+        "song": "The Blue Planet"
+      },
+      {
+        "song": "The Blue Planet"
+      }
+    ]
+  },
+  {
+    "name": [
+      "John Powell/Batu Sener"
+    ],
+    "songs": [
+      {
+        "song": "With Love Comes Loss (Arr. for Piano Solo)"
+      },
+      {
+        "song": "With Love Comes Loss (Arr. for Piano Solo)"
+      }
+    ]
+  },
+  {
+    "name": [
+      "Ryan Mack"
+    ],
+    "songs": [
+      {
+        "song": "Overwhelmed (Ryan Mack Remix)"
+      },
+      {
+        "song": "Overwhelmed (Ryan Mack Remix)"
+      }
+    ]
+  },
+  {
+    "name": [
+      "Duckwrth/Shaboozey"
+    ],
+    "songs": [
+      {
+        "song": "Start a Riot"
+      },
+      {
+        "song": "Start a Riot"
+      }
+    ]
+  },
+  {
+    "name": [
+      "Arcane/Imagine Dragons/JID"
+    ],
+    "songs": [
+      {
+        "song": "Enemy with JID (Opening Title Version)"
+      },
+      {
+        "song": "Enemy with JID (Opening Title Version)"
+      }
+    ]
+  },
+  {
+    "name": [
+      "Blackway/Black Caviar"
+    ],
+    "songs": [
+      {
+        "song": "What's Up Danger (with Black Caviar)"
+      },
+      {
+        "song": "What's Up Danger (with Black Caviar)"
+      }
+    ]
+  },
+  {
+    "name": [
+      "Post Malone/Swae Lee"
+    ],
+    "songs": [
+      {
+        "song": "Sunflower - Spider-Man: Into the Spider-Verse"
+      },
+      {
+        "song": "Sunflower - Spider-Man: Into the Spider-Verse"
+      }
+    ]
+  },
+  {
+    "name": [
+      "Arcane/Ashnikko"
+    ],
+    "songs": [
+      {
+        "song": "Paint The Town Blue (from the series Arcane League of Legends)"
+      },
+      {
+        "song": "Paint The Town Blue (from the series Arcane League of Legends)"
+      }
+    ]
+  },
+  {
+    "name": [
+      "Arcane/d4vd"
+    ],
+    "songs": [
+      {
+        "song": "Remember Me (from the series Arcane League of Legends)"
+      },
+      {
+        "song": "Remember Me (from the series Arcane League of Legends)"
+      }
+    ]
+  },
+  {
+    "name": [
+      "The Piano Guys/Lyceum Philharmonic at American Heritage School/Julie Ann Nelson/John Nelson"
+    ],
+    "songs": [
+      {
+        "song": "Beethoven's 5 Secrets"
+      },
+      {
+        "song": "Beethoven's 5 Secrets"
+      }
+    ]
+  },
+  {
+    "name": [
+      "The Piano Guys/Alex Boyé"
+    ],
+    "songs": [
+      {
+        "song": "Peponi (Paradise)"
+      },
+      {
+        "song": "Peponi (Paradise)"
+      }
+    ]
+  },
+  {
+    "name": [
+      "The Piano Guys/Al van der Beek"
+    ],
+    "songs": [
+      {
+        "song": "(It's Gonna Be) Okay"
+      },
+      {
+        "song": "(It's Gonna Be) Okay"
+      }
+    ]
+  },
+  {
+    "name": [
+      "The Piano Guys"
+    ],
+    "songs": [
+      {
+        "song": "Waterfall"
+      },
+      {
+        "song": "Waterfall"
+      }
+    ]
+  },
+  {
+    "name": [
+      "Taron Egerton"
+    ],
+    "songs": [
+      {
+        "song": "I'm Still Standing - From \"Sing\" Original Motion Picture Soundtrack"
+      },
+      {
+        "song": "I'm Still Standing - From \"Sing\" Original Motion Picture Soundtrack"
+      }
+    ]
+  },
+  {
+    "name": [
+      "Daniel Pemberton"
+    ],
+    "songs": [
+      {
+        "song": "My Name Is... Miles Morales"
+      },
+      {
+        "song": "Only One Spider-Man"
+      },
+      {
+        "song": "Spider-Man Loves You"
+      },
+      {
+        "song": "My Name Is... Miles Morales"
+      },
+      {
+        "song": "Only One Spider-Man"
+      },
+      {
+        "song": "Spider-Man Loves You"
+      }
+    ]
+  },
+  {
+    "name": [
+      "John Paesano/Ben Billions"
+    ],
+    "songs": [
+      {
+        "song": "Greater Together (Album Version)"
+      },
+      {
+        "song": "Greater Together (Album Version)"
+      }
+    ]
+  },
+  {
+    "name": [
+      "Natalie Holt"
+    ],
+    "songs": [
+      {
+        "song": "Loki Green Theme"
+      },
+      {
+        "song": "Loki Green Theme"
+      }
+    ]
+  },
+  {
+    "name": [
+      "Peter Hollens/Evynne Hollens"
+    ],
+    "songs": [
+      {
+        "song": "For the Dancing and the Dreaming"
+      },
+      {
+        "song": "For the Dancing and the Dreaming"
+      }
+    ]
+  },
+  {
+    "name": [
+      "Pharrell Williams"
+    ],
+    "songs": [
+      {
+        "song": "Despicable Me"
+      },
+      {
+        "song": "Despicable Me"
+      }
+    ]
+  },
+  {
+    "name": [
+      "The Star Spangled Singers"
+    ],
+    "songs": [
+      {
+        "song": "Star Spangled Man"
+      },
+      {
+        "song": "Star Spangled Man"
+      }
+    ]
+  },
+  {
+    "name": [
+      "Manaka Kataoka"
+    ],
+    "songs": [
+      {
+        "song": "Main Theme"
+      },
+      {
+        "song": "The Beast"
+      },
+      {
+        "song": "Shiekah Tower"
+      },
+      {
+        "song": "Battle (Shrine): Original Soundtrack Ver."
+      },
+      {
+        "song": "Highlands"
+      },
+      {
+        "song": "The Last King of Hyrule"
+      },
+      {
+        "song": "A King's Request"
+      },
+      {
+        "song": "Field (Day)"
+      },
+      {
+        "song": "Battle (Field): Original Soundtrack Ver."
+      },
+      {
+        "song": "Riding (Day)"
+      },
+      {
+        "song": "Talus Battle"
+      },
+      {
+        "song": "Kakariko Village"
+      },
+      {
+        "song": "Field (Night)"
+      },
+      {
+        "song": "Riding (Night)"
+      },
+      {
+        "song": "Opening"
+      },
+      {
+        "song": "The Towers Rise"
+      },
+      {
+        "song": "The Old Man Appears"
+      },
+      {
+        "song": "Shrine Trial Start"
+      },
+      {
+        "song": "Stationary Guardian Battle"
+      },
+      {
+        "song": "Enter Hyrule"
+      },
+      {
+        "song": "Field (Snow)"
+      },
+      {
+        "song": "House"
+      },
+      {
+        "song": "Sisters Chirping"
+      },
+      {
+        "song": "Rito Sisters"
+      },
+      {
+        "song": "Field (Volcano)"
+      },
+      {
+        "song": "Abandoned North Mine"
+      },
+      {
+        "song": "Crossdressing"
+      },
+      {
+        "song": "Yiga Hideout"
+      },
+      {
+        "song": "Kohga's Theme"
+      },
+      {
+        "song": "Master Kohga Battle"
+      },
+      {
+        "song": "Goron Challenge Minigame"
+      },
+      {
+        "song": "Lost Woods"
+      },
+      {
+        "song": "The Dragons of Hyrule"
+      },
+      {
+        "song": "Omen of the Blood Moon"
+      },
+      {
+        "song": "Resurrecting Memory"
+      },
+      {
+        "song": "Link's Memories: Subdued Ceremony"
+      },
+      {
+        "song": "Link's Memories: Blades of the Yiga"
+      },
+      {
+        "song": "Link's Memories: A Premonition"
+      },
+      {
+        "song": "Link's Memories: Father and Daughter"
+      },
+      {
+        "song": "Link's Memories: Slumbering Power"
+      },
+      {
+        "song": "Link's Memories: To Mount Lanayru"
+      },
+      {
+        "song": "Link's Memories: Zelda's Awakening"
+      },
+      {
+        "song": "Zelda's Wish"
+      },
+      {
+        "song": "Guardian Battle"
+      },
+      {
+        "song": "Ganon's Roar"
+      },
+      {
+        "song": "Hyrule Castle"
+      },
+      {
+        "song": "Dark Beast Ganon Appears"
+      },
+      {
+        "song": "Dark Beast Ganon Battle"
+      },
+      {
+        "song": "To Tarrey Town"
+      },
+      {
+        "song": "Wedding at Tarrey Town"
+      },
+      {
+        "song": "Wasteland"
+      },
+      {
+        "song": "Horse Riding Minigame"
+      },
+      {
+        "song": "Lord of Satori Mountain"
+      },
+      {
+        "song": "Strengthening the Shiekah Slate"
+      },
+      {
+        "song": "Get Shiekah Slate Rune"
+      },
+      {
+        "song": "Korok Appearance"
+      },
+      {
+        "song": "First Location"
+      },
+      {
+        "song": "Trial of the Sword Completed"
+      },
+      {
+        "song": "Master Sword - Praise of the Deku Tree"
+      },
+      {
+        "song": "The Monument's Arise"
+      },
+      {
+        "song": "Champion Urbosa's Song"
+      },
+      {
+        "song": "Monk Maz Koshia Battle"
+      },
+      {
+        "song": "The Forgotten Memory (The Champions' Ballad)"
+      },
+      {
+        "song": "Framed Picture"
+      },
+      {
+        "song": "Main Theme"
+      }
+    ]
+  },
+  {
+    "name": [
+      "Yasuaki Iwata"
+    ],
+    "songs": [
+      {
+        "song": "Shrine"
+      },
+      {
+        "song": "The Temple of Time"
+      },
+      {
+        "song": "The 10,000 Year Old Legend"
+      },
+      {
+        "song": "Hateno Village"
+      },
+      {
+        "song": "Great Fairy's Fountain"
+      },
+      {
+        "song": "Kass's Theme"
+      },
+      {
+        "song": "Kass: Main Theme"
+      },
+      {
+        "song": "Stables"
+      },
+      {
+        "song": "Blessing Shrine"
+      },
+      {
+        "song": "Shiekah Tower Activated"
+      },
+      {
+        "song": "Kass: 10,000 Year Old Legend"
+      },
+      {
+        "song": "Sidon's Theme"
+      },
+      {
+        "song": "Zora's Domain"
+      },
+      {
+        "song": "Link's Memories: Mipha's Touch"
+      },
+      {
+        "song": "Vah Ruta Battle"
+      },
+      {
+        "song": "Sidon's Promise"
+      },
+      {
+        "song": "Divine Beast Vah Ruta"
+      },
+      {
+        "song": "Battle (Divine Beast)"
+      },
+      {
+        "song": "Waterblight Ganon Battle"
+      },
+      {
+        "song": "Reunion with Mipha"
+      },
+      {
+        "song": "Cave"
+      },
+      {
+        "song": "Rito Village"
+      },
+      {
+        "song": "Rito Flight Range"
+      },
+      {
+        "song": "Flight Training"
+      },
+      {
+        "song": "Vah Medoh Battle"
+      },
+      {
+        "song": "Teba's Encouragement"
+      },
+      {
+        "song": "Divine Beast Vah Medoh"
+      },
+      {
+        "song": "Windblight Ganon Battle"
+      },
+      {
+        "song": "Reunion with Revali"
+      },
+      {
+        "song": "Kass's Theme (The Hero's Theme ver.)"
+      },
+      {
+        "song": "Rito Village (Kass and Five Sisters ver.)"
+      },
+      {
+        "song": "Meeting Sidon"
+      },
+      {
+        "song": "The Divine Beast of the Lake"
+      },
+      {
+        "song": "Blight Ganon Appearance"
+      },
+      {
+        "song": "The Champions Power"
+      },
+      {
+        "song": "The Divine Beast of the Sky"
+      },
+      {
+        "song": "Link's Memories: Revali's Flap"
+      },
+      {
+        "song": "Meeting Teba"
+      },
+      {
+        "song": "Death Mountain"
+      },
+      {
+        "song": "Goron Humming"
+      },
+      {
+        "song": "The Divine Beast of the Volcano"
+      },
+      {
+        "song": "Goron City"
+      },
+      {
+        "song": "Meeting Yunobo"
+      },
+      {
+        "song": "Link's Memories: Daruk's Mettle"
+      },
+      {
+        "song": "Vah Rudania Battle"
+      },
+      {
+        "song": "Yunobo's Opportunity"
+      },
+      {
+        "song": "Divine Beast Vah Rudania"
+      },
+      {
+        "song": "Fireblight Ganon Battle"
+      },
+      {
+        "song": "Reunion with Daruk"
+      },
+      {
+        "song": "Field (Desert)"
+      },
+      {
+        "song": "The Divine Beast of the Desert"
+      },
+      {
+        "song": "Kara Kara Bazaar"
+      },
+      {
+        "song": "Gerudo Town"
+      },
+      {
+        "song": "Meeting Riju"
+      },
+      {
+        "song": "Link's Memories: Urbosa's Hand"
+      },
+      {
+        "song": "Observation Post"
+      },
+      {
+        "song": "Vah Naboris Battle"
+      },
+      {
+        "song": "Riju's Trust"
+      },
+      {
+        "song": "Divine Beast Vah Naboris"
+      },
+      {
+        "song": "Thunderblight Ganon Battle"
+      },
+      {
+        "song": "Reunion with Urbosa"
+      },
+      {
+        "song": "Ruins"
+      },
+      {
+        "song": "Korok Forest"
+      },
+      {
+        "song": "Master Sword"
+      },
+      {
+        "song": "Link's Memories: Resolve and Grief"
+      },
+      {
+        "song": "Link's Memories: Silent Princess"
+      },
+      {
+        "song": "Link's Memories: Despair"
+      },
+      {
+        "song": "Calamity Ganon Appears"
+      },
+      {
+        "song": "The Divine Beasts Strike!"
+      },
+      {
+        "song": "Calamity Ganon Battle - Phase 1"
+      },
+      {
+        "song": "Calamity Ganon Battle - Phase 2"
+      },
+      {
+        "song": "Do You Remember?"
+      },
+      {
+        "song": "Epilogue"
+      },
+      {
+        "song": "Lurelin Village"
+      },
+      {
+        "song": "Tarrey Town"
+      },
+      {
+        "song": "Malanya's Fountain"
+      },
+      {
+        "song": "Parasail Minigame"
+      },
+      {
+        "song": "Get Item"
+      },
+      {
+        "song": "Get Important Item"
+      },
+      {
+        "song": "Get Key Item"
+      },
+      {
+        "song": "Get Heart Container / Stamina Vessel"
+      },
+      {
+        "song": "Repair"
+      },
+      {
+        "song": "Mystery Solved"
+      },
+      {
+        "song": "Game Over"
+      },
+      {
+        "song": "Kass \"Link's Ballad\""
+      },
+      {
+        "song": "Kass \"The Champions' Ballad\" (1st Stage)"
+      },
+      {
+        "song": "Champion Mipha's Song"
+      },
+      {
+        "song": "Kass \"Mipha's Ballad\""
+      },
+      {
+        "song": "Kass \"The Champions' Ballad\" (2nd Stage)"
+      },
+      {
+        "song": "Kass \"Revali's Ballad\""
+      },
+      {
+        "song": "Kass \"The Champions' Ballad\" (3rd Stage) "
+      },
+      {
+        "song": "Kass \"Daruk's Ballad\""
+      },
+      {
+        "song": "Kass \"The Champions' Ballad\" (4th Stage)"
+      },
+      {
+        "song": "Kass \"Urbosa's Ballad\""
+      },
+      {
+        "song": "Final Trial"
+      },
+      {
+        "song": "Princess Zelda and the Champions"
+      },
+      {
+        "song": "The Champions' Ballad"
+      },
+      {
+        "song": "Vah Ruta Battle"
+      }
+    ]
+  },
+  {
+    "name": [
+      "Manaka Kataoka, Hajime Wakai"
+    ],
+    "songs": [
+      {
+        "song": "The Story of Calamity Ganon"
+      },
+      {
+        "song": "Reviving the Great Fairy"
+      }
+    ]
+  },
+  {
+    "name": [
+      "Hajime Wakai"
+    ],
+    "songs": [
+      {
+        "song": "Impa's Theme"
+      },
+      {
+        "song": "Hateno Ancient Tech Lab"
+      },
+      {
+        "song": "Hinox Battle"
+      },
+      {
+        "song": "Wetlands"
+      },
+      {
+        "song": "The Divine Beast Aims"
+      },
+      {
+        "song": "Mipha and Vah Ruta"
+      },
+      {
+        "song": "Revali and Vah Medoh"
+      },
+      {
+        "song": "The Crazy Flower Lady"
+      },
+      {
+        "song": "Heart Container Appearance"
+      },
+      {
+        "song": "Daruk and Vah Rudania"
+      },
+      {
+        "song": "Urbosa and Vah Naboris"
+      },
+      {
+        "song": "Race Start"
+      },
+      {
+        "song": "Race Minigame"
+      },
+      {
+        "song": "Challenge Failed"
+      },
+      {
+        "song": "New Record"
+      },
+      {
+        "song": "Gerudo Race Award Ceremony"
+      },
+      {
+        "song": "Molduga Battle"
+      },
+      {
+        "song": "Encounter with the Deku Tree"
+      },
+      {
+        "song": "Memories: The Master Sword"
+      },
+      {
+        "song": "Master Sword - Encounter with the Deku Tree"
+      },
+      {
+        "song": "Hestu's Dance!"
+      },
+      {
+        "song": "Akkala Ancient Tech Lab"
+      },
+      {
+        "song": "Naydra Possessed"
+      },
+      {
+        "song": "The Blood Moon"
+      },
+      {
+        "song": "Link's Memories: Return of Calamity Ganon"
+      },
+      {
+        "song": "All Twelve Memories"
+      },
+      {
+        "song": "Hyrule Castle Town Ruins"
+      },
+      {
+        "song": "Kilton"
+      },
+      {
+        "song": "Reviving Malanya"
+      },
+      {
+        "song": "Malanya's Dance"
+      },
+      {
+        "song": "Rest"
+      },
+      {
+        "song": "Rest (Bed)"
+      },
+      {
+        "song": "Rest (Luxury Bed)"
+      },
+      {
+        "song": "Cooking Failure"
+      },
+      {
+        "song": "Cooking"
+      },
+      {
+        "song": "Cooking Success"
+      },
+      {
+        "song": "Korok Trial Achievement"
+      },
+      {
+        "song": "Dyeing"
+      },
+      {
+        "song": "Bleaching"
+      },
+      {
+        "song": "Champion Daruk's Song"
+      },
+      {
+        "song": "2014 E3 Trailer BGM (Bonus Track)"
+      }
+    ]
+  },
+  {
+    "name": [
+      "Manaka Kataoka, Yasuaki Iwata"
+    ],
+    "songs": [
+      {
+        "song": "Snowball Minigame"
+      },
+      {
+        "song": "Ending of The Champions' Ballad"
+      }
+    ]
+  },
+  {
+    "name": [
+      "Manaka Kataoka, Yasuaki Iwata, Hajime Wakai"
+    ],
+    "songs": [
+      {
+        "song": "Staff Roll"
+      }
+    ]
+  },
+  {
+    "name": [
+      "Riyu Tamura"
+    ],
+    "songs": [
+      {
+        "song": "Construction Work"
+      }
+    ]
+  },
+  {
+    "name": [
+      "Soshi Abe"
+    ],
+    "songs": [
+      {
+        "song": "Monument"
+      },
+      {
+        "song": "Champion Revali's Song"
+      }
+    ]
+  },
+  {
+    "name": [
+      "Kousuke Yamashita"
+    ],
+    "songs": [
+      {
+        "song": "Nintendo Switch Presentation 2017 Trailer BGM (Bonus Track)﻿"
+      }
+    ]
+  },
+  {
+    "name": [
+      "Ariana Grande"
+    ],
+    "songs": [
+      {
+        "song": "Popular"
+      },
+      {
+        "song": "Popular"
+      }
+    ]
+  },
+  {
+    "name": [
+      "Ariana Grande/Cynthia Erivo"
+    ],
+    "songs": [
+      {
+        "song": "What Is This Feeling?"
+      },
+      {
+        "song": "What Is This Feeling?"
+      }
+    ]
+  },
+  {
+    "name": [
+      "Cynthia Erivo"
+    ],
+    "songs": [
+      {
+        "song": "I’m Not That Girl"
+      },
+      {
+        "song": "I’m Not That Girl"
+      }
+    ]
+  },
+  {
+    "name": [
+      "Cynthia Erivo/Ariana Grande/Kristin Chenoweth/Idina Menzel/Michael McCorry Rose"
+    ],
+    "songs": [
+      {
+        "song": "One Short Day"
+      },
+      {
+        "song": "One Short Day"
+      }
+    ]
+  },
+  {
+    "name": [
+      "Cynthia Erivo/Michelle Yeoh"
+    ],
+    "songs": [
+      {
+        "song": "The Wizard And I"
+      },
+      {
+        "song": "The Wizard And I"
+      }
+    ]
+  },
+  {
+    "name": [
+      "Jeff Goldblum"
+    ],
+    "songs": [
+      {
+        "song": "A Sentimental Man"
+      },
+      {
+        "song": "A Sentimental Man"
+      }
+    ]
+  },
+  {
+    "name": [
+      "Jonathan Bailey/Ariana Grande/Ethan Slater/Marissa Bode/Cynthia Erivo"
+    ],
+    "songs": [
+      {
+        "song": "Dancing Through Life"
+      },
+      {
+        "song": "Dancing Through Life"
+      }
+    ]
+  },
+  {
+    "name": [
+      "Peter Dinklage/Cynthia Erivo"
+    ],
+    "songs": [
+      {
+        "song": "Something Bad"
+      },
+      {
+        "song": "Something Bad"
+      }
+    ]
+  },
+  {
+    "name": [
+      "The Wicked Orchestra"
+    ],
+    "songs": [
+      {
+        "song": "Ozdust Duet - Bonus Track"
+      },
+      {
+        "song": "Ozdust Duet - Bonus Track"
+      }
+    ]
+  },
+  {
+    "name": [
+      "Wicked Movie Cast/Ariana Grande/Andy Nyman/Courtney-Mae Briggs/Jeff Goldblum/Sharon D. Clarke/Jenna Boyd"
+    ],
+    "songs": [
+      {
+        "song": "No One Mourns the Wicked"
+      },
+      {
+        "song": "No One Mourns the Wicked"
+      }
+    ]
+  },
+  {
+    "name": [
+      "Wicked Movie Cast/Shiz University Choir/Ariana Grande"
+    ],
+    "songs": [
+      {
+        "song": "Dear Old Shiz"
+      },
+      {
+        "song": "Dear Old Shiz"
+      }
+    ]
+  },
+  {
+    "name": [
+      "John Williams"
+    ],
+    "songs": [
+      {
+        "song": "The Raiders March"
+      },
+      {
+        "song": "Main Title: South America, 1936"
+      },
+      {
+        "song": "In The Idol's Temple"
+      },
+      {
+        "song": "Flight From Peru"
+      },
+      {
+        "song": "Journey To Nepal"
+      },
+      {
+        "song": "The Medallion"
+      },
+      {
+        "song": "To Cairo"
+      },
+      {
+        "song": "The Basket Game"
+      },
+      {
+        "song": "The Map Room: Dawn"
+      },
+      {
+        "song": "Reunion And The Dig Begins"
+      },
+      {
+        "song": "The Well Of The Souls"
+      },
+      {
+        "song": "Airplane Fight"
+      },
+      {
+        "song": "Desert Chase"
+      },
+      {
+        "song": "Marion's Theme"
+      },
+      {
+        "song": "The German Sub/To The Nazi Hideout"
+      },
+      {
+        "song": "Ark Trek"
+      },
+      {
+        "song": "The Miracle Of The Ark"
+      },
+      {
+        "song": "The Warehouse"
+      },
+      {
+        "song": "End Credits"
+      }
+    ]
+  },
+  {
+    "name": [
+      "Koji Kondo"
+    ],
+    "songs": [
+      {
+        "song": "Super Mario 64 Main Theme"
+      }
+    ]
+  },
+  {
+    "name": [
+      "Naoto Kubo"
+    ],
+    "songs": [
+      {
+        "song": "Fossil Falls"
+      },
+      {
+        "song": "Staff Roll"
+      }
+    ]
+  },
+  {
+    "name": [
+      "Shiho Fujii & Koji Kondo"
+    ],
+    "songs": [
+      {
+        "song": "Peach's Castle"
+      }
+    ]
+  },
+  {
+    "name": "Unknown Artist",
+    "songs": [
+      {
+        "song": "Unknown Title"
+      },
+      {
+        "song": "Unknown Title"
+      },
+      {
+        "song": "Unknown Title"
+      },
+      {
+        "song": "Unknown Title"
+      },
+      {
+        "song": "Unknown Title"
+      },
+      {
+        "song": "Unknown Title"
+      },
+      {
+        "song": "Unknown Title"
+      },
+      {
+        "song": "Unknown Title"
+      },
+      {
+        "song": "Unknown Title"
+      },
+      {
+        "song": "Unknown Title"
+      },
+      {
+        "song": "Unknown Title"
+      },
+      {
+        "song": "Unknown Title"
+      },
+      {
+        "song": "Unknown Title"
+      },
+      {
+        "song": "Unknown Title"
+      },
+      {
+        "song": "Unknown Title"
+      }
+    ]
+  },
+  {
+    "name": [],
+    "songs": [
+      {
+        "song": "Unknown Title"
+      },
+      {
+        "song": "Unknown Title"
+      },
+      {
+        "song": "Unknown Title"
+      },
+      {
+        "song": "Unknown Title"
+      },
+      {
+        "song": "Unknown Title"
+      },
+      {
+        "song": "Unknown Title"
+      },
+      {
+        "song": "Unknown Title"
+      },
+      {
+        "song": "Unknown Title"
+      },
+      {
+        "song": "Unknown Title"
+      },
+      {
+        "song": "Unknown Title"
+      },
+      {
+        "song": "Unknown Title"
+      },
+      {
+        "song": "Unknown Title"
+      },
+      {
+        "song": "Unknown Title"
+      },
+      {
+        "song": "Unknown Title"
+      },
+      {
+        "song": "Unknown Title"
+      },
+      {
+        "song": "Unknown Title"
+      },
+      {
+        "song": "Unknown Title"
+      },
+      {
+        "song": "Unknown Title"
+      },
+      {
+        "song": "Unknown Title"
+      },
+      {
+        "song": "Unknown Title"
+      },
+      {
+        "song": "Unknown Title"
+      },
+      {
+        "song": "Unknown Title"
+      },
+      {
+        "song": "Unknown Title"
+      },
+      {
+        "song": "Unknown Title"
+      },
+      {
+        "song": "Unknown Title"
+      },
+      {
+        "song": "Unknown Title"
+      }
+    ]
+  },
+  {
+    "name": [
+      "Nicholas Hooper"
+    ],
+    "songs": [
+      {
+        "song": "A Journey to Hogwarts"
+      },
+      {
+        "song": "Another Story"
+      },
+      {
+        "song": "Darkness Takes Over"
+      },
+      {
+        "song": "Death of Sirius"
+      },
+      {
+        "song": "Dementors in the Underpass"
+      },
+      {
+        "song": "Dumbledore's Army"
+      },
+      {
+        "song": "Fireworks"
+      },
+      {
+        "song": "Flight of the Order of the Phoenix"
+      },
+      {
+        "song": "Loved Ones and Leaving"
+      },
+      {
+        "song": "Possession"
+      },
+      {
+        "song": "Professor Umbridge"
+      },
+      {
+        "song": "The Hall of Prophecies"
+      },
+      {
+        "song": "The Kiss"
+      },
+      {
+        "song": "The Ministry of Magic"
+      },
+      {
+        "song": "The Room of Requirements"
+      },
+      {
+        "song": "The Sacking of Trelawny"
+      },
+      {
+        "song": "The Sirius Deception"
+      },
+      {
+        "song": "Umbridge Spoils a Beautiful Morning"
+      }
+    ]
+  },
+  {
+    "name": [
+      "Hans Zimmer"
+    ],
+    "songs": [
+      {
+        "song": "A Place Among the Stars"
+      },
+      {
+        "song": "Afraid of Time"
+      },
+      {
+        "song": "Atmospheric Entry"
+      },
+      {
+        "song": "Cornfield Chase"
+      },
+      {
+        "song": "Coward"
+      },
+      {
+        "song": "Day One (Interstellar Theme)"
+      },
+      {
+        "song": "Day One - Original Demo"
+      },
+      {
+        "song": "Day One Dark"
+      },
+      {
+        "song": "Detach"
+      },
+      {
+        "song": "Dreaming of the Crash"
+      },
+      {
+        "song": "Dust"
+      },
+      {
+        "song": "First Step"
+      },
+      {
+        "song": "Flying Drone"
+      },
+      {
+        "song": "I'm Going Home"
+      },
+      {
+        "song": "Imperfect Lock"
+      },
+      {
+        "song": "Message from Home"
+      },
+      {
+        "song": "Mountains"
+      },
+      {
+        "song": "Murph"
+      },
+      {
+        "song": "No Need to Come Back"
+      },
+      {
+        "song": "No Time for Caution"
+      },
+      {
+        "song": "Organ Variation"
+      },
+      {
+        "song": "Running Out"
+      },
+      {
+        "song": "S.T.A.Y."
+      },
+      {
+        "song": "Stay"
+      },
+      {
+        "song": "The Wormhole"
+      },
+      {
+        "song": "Tick-Tock"
+      },
+      {
+        "song": "What Happens Now?"
+      },
+      {
+        "song": "Where We're Going"
+      },
+      {
+        "song": "Who's They?"
+      }
+    ]
+  },
+  {
+    "name": [
+      "Hans Zimmer/John Lithgow/Ellen Burstyn/Casey Affleck/Jessica Chastain/Matthew McConaughey/Mackenzie Foy"
+    ],
+    "songs": [
+      {
+        "song": "Do Not Go Gentle Into That Good Night"
+      }
+    ]
+  },
+  {
+    "name": [
+      "Skillet"
+    ],
+    "songs": [
+      {
+        "song": "Stars"
+      }
+    ]
+  },
+  {
+    "name": [
+      "Hillsong UNITED/Matt Crocker"
+    ],
+    "songs": [
+      {
+        "song": "Relentless"
+      }
+    ]
+  },
+  {
+    "name": [
+      "Hillsong UNITED/TAYA"
+    ],
+    "songs": [
+      {
+        "song": "Oceans (Where Feet May Fail)"
+      },
+      {
+        "song": "Oceans (Where Feet My Fail) - Live/Acoustic Version"
+      }
+    ]
+  },
+  {
+    "name": [
+      "Kari Jobe"
+    ],
+    "songs": [
+      {
+        "song": "I Am Not Alone - Radio Version"
+      }
+    ]
+  },
+  {
+    "name": [
+      "All Sons & Daughters"
+    ],
+    "songs": [
+      {
+        "song": "Great Are You Lord"
+      }
+    ]
+  },
+  {
+    "name": [
+      "Chris Tomlin/Lady A"
+    ],
+    "songs": [
+      {
+        "song": "Who You Are To Me (feat. Lady A)"
+      },
+      {
+        "song": "Who You Are To Me (feat. Lady A)"
+      }
+    ]
+  },
+  {
+    "name": [
+      "Elevation Worship/Kari Jobe/Cody Carnes"
+    ],
+    "songs": [
+      {
+        "song": "The Blessing (Live)"
+      }
+    ]
+  },
+  {
+    "name": [
+      "Mosaic MSC"
+    ],
+    "songs": [
+      {
+        "song": "Across the Universe - Live"
+      },
+      {
+        "song": "Everlasting Light - Live"
+      }
+    ]
+  },
+  {
+    "name": [
+      "Leeland"
+    ],
+    "songs": [
+      {
+        "song": "Way Maker - Single Version"
+      }
+    ]
+  },
+  {
+    "name": [
+      "Lecrae"
+    ],
+    "songs": [
+      {
+        "song": "Deep End"
+      }
+    ]
+  },
+  {
+    "name": [
+      "Matt Redman"
+    ],
+    "songs": [
+      {
+        "song": "You Never Let Go"
+      },
+      {
+        "song": "10,000 Reasons (Bless The Lord) [Radio Version] - Radio Version/Live"
+      }
+    ]
+  },
+  {
+    "name": [
+      "Maverick City Music/Joe L Barnes/Naomi Raine"
+    ],
+    "songs": [
+      {
+        "song": "Promises"
+      }
+    ]
+  },
+  {
+    "name": [
+      "Elevation Worship/Maverick City Music/Chandler Moore/Naomi Raine"
+    ],
+    "songs": [
+      {
+        "song": "Jireh (feat. Chandler Moore & Naomi Raine)"
+      }
+    ]
+  },
+  {
+    "name": [
+      "CeCe Winans"
+    ],
+    "songs": [
+      {
+        "song": "Believe For It"
+      }
+    ]
+  },
+  {
+    "name": [
+      "CAIN"
+    ],
+    "songs": [
+      {
+        "song": "Yes He Can"
+      },
+      {
+        "song": "Any More"
+      },
+      {
+        "song": "Honest Offering / I Surrender All - Live"
+      }
+    ]
+  },
+  {
+    "name": [
+      "Chris Tomlin/Thomas Rhett/Florida Georgia Line"
+    ],
+    "songs": [
+      {
+        "song": "Thank You Lord (feat.Thomas Rhett & Florida Georgia Line)"
+      }
+    ]
+  },
+  {
+    "name": [
+      "Tauren Wells/Rascal Flatts"
+    ],
+    "songs": [
+      {
+        "song": "Until Grace"
+      }
+    ]
+  },
+  {
+    "name": [
+      "Tenth Avenue North"
+    ],
+    "songs": [
+      {
+        "song": "Control (Somehow You Want Me)"
+      },
+      {
+        "song": "Worn"
+      },
+      {
+        "song": "I Have This Hope"
+      }
+    ]
+  },
+  {
+    "name": [
+      "Kutless"
+    ],
+    "songs": [
+      {
+        "song": "King of My Heart"
+      },
+      {
+        "song": "What Faith Can Do"
+      }
+    ]
+  },
+  {
+    "name": [
+      "Passion/Kristian Stanfill"
+    ],
+    "songs": [
+      {
+        "song": "One Thing Remains - Radio Version"
+      },
+      {
+        "song": "Glorious Day - Radio Version"
+      }
+    ]
+  },
+  {
+    "name": [
+      "The Afters"
+    ],
+    "songs": [
+      {
+        "song": "Broken Hallelujah"
+      },
+      {
+        "song": "Well Done"
+      },
+      {
+        "song": "Battles"
+      },
+      {
+        "song": "When You're With Me"
+      }
+    ]
+  },
+  {
+    "name": [
+      "Colton Dixon"
+    ],
+    "songs": [
+      {
+        "song": "Through All Of It"
+      },
+      {
+        "song": "The Other Side"
+      },
+      {
+        "song": "Miracles"
+      }
+    ]
+  },
+  {
+    "name": [
+      "I AM THEY"
+    ],
+    "songs": [
+      {
+        "song": "Scars"
+      }
+    ]
+  },
+  {
+    "name": [
+      "Hillsong Young & Free/Aodhán King"
+    ],
+    "songs": [
+      {
+        "song": "Sinking Deep"
+      },
+      {
+        "song": "Best Friends - Live"
+      },
+      {
+        "song": "Best Friends"
+      }
+    ]
+  },
+  {
+    "name": [
+      "Cochren & Co."
+    ],
+    "songs": [
+      {
+        "song": "Church (Take Me Back)"
+      },
+      {
+        "song": "One Day"
+      },
+      {
+        "song": "Who Can"
+      }
+    ]
+  },
+  {
+    "name": [
+      "Bethel Music|Amanda Lindsey Cook"
+    ],
+    "songs": [
+      {
+        "song": "You Make Me Brave - Studio Version"
+      }
+    ]
+  },
+  {
+    "name": [
+      "Carrollton"
+    ],
+    "songs": [
+      {
+        "song": "Tell Me"
+      }
+    ]
+  },
+  {
+    "name": [
+      "David Dunn"
+    ],
+    "songs": [
+      {
+        "song": "I Wanna Go Back"
+      }
+    ]
+  },
+  {
+    "name": [
+      "Selah"
+    ],
+    "songs": [
+      {
+        "song": "How Deep The Father's Love For Us"
+      }
+    ]
+  },
+  {
+    "name": [
+      "We Are Messengers"
+    ],
+    "songs": [
+      {
+        "song": "Magnify"
+      },
+      {
+        "song": "Love"
+      }
+    ]
+  },
+  {
+    "name": [
+      "Aaron Shust"
+    ],
+    "songs": [
+      {
+        "song": "My Savior My God"
+      },
+      {
+        "song": "Ever Be"
+      }
+    ]
+  },
+  {
+    "name": [
+      "Sanctus Real"
+    ],
+    "songs": [
+      {
+        "song": "Lead Me"
+      },
+      {
+        "song": "Confidence"
+      }
+    ]
+  },
+  {
+    "name": [
+      "Hawk Nelson"
+    ],
+    "songs": [
+      {
+        "song": "Live Like You're Loved"
+      },
+      {
+        "song": "Diamonds"
+      },
+      {
+        "song": "Drops In the Ocean"
+      }
+    ]
+  },
+  {
+    "name": [
+      "NEEDTOBREATHE"
+    ],
+    "songs": [
+      {
+        "song": "TESTIFY"
+      },
+      {
+        "song": "Washed by the Water"
+      },
+      {
+        "song": "Who Am I"
+      }
+    ]
+  },
+  {
+    "name": [
+      "Jason Gray"
+    ],
+    "songs": [
+      {
+        "song": "Sparrows"
+      },
+      {
+        "song": "Glow in the Dark"
+      },
+      {
+        "song": "Good to Be Alive"
+      },
+      {
+        "song": "I Will Rise Again"
+      }
+    ]
+  },
+  {
+    "name": [
+      "Danny Gokey"
+    ],
+    "songs": [
+      {
+        "song": "More Than You Think I Am"
+      },
+      {
+        "song": "The Comeback"
+      },
+      {
+        "song": "Masterpiece"
+      },
+      {
+        "song": "Tell Your Heart To Beat Again"
+      },
+      {
+        "song": "Hope in Front of Me"
+      },
+      {
+        "song": "Rise"
+      }
+    ]
+  },
+  {
+    "name": [
+      "Citizen Way"
+    ],
+    "songs": [
+      {
+        "song": "When I'm with You"
+      },
+      {
+        "song": "Bulletproof"
+      }
+    ]
+  },
+  {
+    "name": [
+      "Finding Favour"
+    ],
+    "songs": [
+      {
+        "song": "Cast My Cares"
+      }
+    ]
+  },
+  {
+    "name": [
+      "Mandisa/TobyMac/Kirk Franklin"
+    ],
+    "songs": [
+      {
+        "song": "Bleed The Same"
+      }
+    ]
+  },
+  {
+    "name": [
+      "North Point Worship/Seth Condrey"
+    ],
+    "songs": [
+      {
+        "song": "Death Was Arrested"
+      }
+    ]
+  },
+  {
+    "name": [
+      "Matt Maher"
+    ],
+    "songs": [
+      {
+        "song": "Hold Us Together"
+      },
+      {
+        "song": "Your Love Defends Me"
+      },
+      {
+        "song": "Because He Lives (Amen)"
+      },
+      {
+        "song": "Lord, I Need You"
+      }
+    ]
+  },
+  {
+    "name": [
+      "Ryan Stevenson"
+    ],
+    "songs": [
+      {
+        "song": "The Gospel"
+      }
+    ]
+  },
+  {
+    "name": [
+      "for KING & COUNTRY/KB"
+    ],
+    "songs": [
+      {
+        "song": "O God Forgive Us"
+      }
+    ]
+  },
+  {
+    "name": [
+      "Francesca Battistelli"
+    ],
+    "songs": [
+      {
+        "song": "If We're Honest"
+      },
+      {
+        "song": "Giants Fall"
+      },
+      {
+        "song": "He Knows My Name"
+      },
+      {
+        "song": "Holy Spirit"
+      }
+    ]
+  },
+  {
+    "name": [
+      "Meredith Andrews"
+    ],
+    "songs": [
+      {
+        "song": "Soar"
+      }
+    ]
+  },
+  {
+    "name": [
+      "Crowder"
+    ],
+    "songs": [
+      {
+        "song": "Forgiven"
+      },
+      {
+        "song": "Red Letters"
+      },
+      {
+        "song": "Come As You Are"
+      }
+    ]
+  },
+  {
+    "name": [
+      "Pat Barrett"
+    ],
+    "songs": [
+      {
+        "song": "Canvas And Clay"
+      }
+    ]
+  },
+  {
+    "name": [
+      "Hillary Scott & The Scott Family"
+    ],
+    "songs": [
+      {
+        "song": "Still"
+      },
+      {
+        "song": "Thy Will"
+      }
+    ]
+  },
+  {
+    "name": [
+      "Love & The Outcome"
+    ],
+    "songs": [
+      {
+        "song": "The God I Know"
+      }
+    ]
+  },
+  {
+    "name": [
+      "Lincoln Brewster"
+    ],
+    "songs": [
+      {
+        "song": "There Is Power"
+      }
+    ]
+  },
+  {
+    "name": [
+      "Josh Wilson"
+    ],
+    "songs": [
+      {
+        "song": "That Was Then, This Is Now"
+      },
+      {
+        "song": "Dream Small"
+      }
+    ]
+  },
+  {
+    "name": [
+      "Austin French"
+    ],
+    "songs": [
+      {
+        "song": "Freedom Hymn"
+      },
+      {
+        "song": "Wake Up Sleeper"
+      }
+    ]
+  },
+  {
+    "name": [
+      "Plumb"
+    ],
+    "songs": [
+      {
+        "song": "God Help Me"
+      }
+    ]
+  },
+  {
+    "name": [
+      "Hillsong Worship"
+    ],
+    "songs": [
+      {
+        "song": "Cornerstone - Studio Version"
+      },
+      {
+        "song": "Who You Say I Am"
+      }
+    ]
+  },
+  {
+    "name": [
+      "Hollyn"
+    ],
+    "songs": [
+      {
+        "song": "In Awe"
+      }
+    ]
+  },
+  {
+    "name": [
+      "Jonny Diaz"
+    ],
+    "songs": [
+      {
+        "song": "More Beautiful You"
+      },
+      {
+        "song": "Breathe"
+      }
+    ]
+  },
+  {
+    "name": [
+      "Rascal Flatts"
+    ],
+    "songs": [
+      {
+        "song": "Bless The Broken Road"
+      }
+    ]
+  },
+  {
+    "name": [
+      "Blanca"
+    ],
+    "songs": [
+      {
+        "song": "Who I Am"
+      },
+      {
+        "song": "Something Better"
+      }
+    ]
+  },
+  {
+    "name": [
+      "MIKESCHAIR"
+    ],
+    "songs": [
+      {
+        "song": "All I Can Do (Thank You)"
+      }
+    ]
+  },
+  {
+    "name": [
+      "Martina McBride"
+    ],
+    "songs": [
+      {
+        "song": "A Broken Wing"
+      }
+    ]
+  },
+  {
+    "name": [
+      "Natalie Grant"
+    ],
+    "songs": [
+      {
+        "song": "Clean"
+      }
+    ]
+  },
+  {
+    "name": [
+      "Crowder/Tauren Wells"
+    ],
+    "songs": [
+      {
+        "song": "All My Hope"
+      }
+    ]
+  },
+  {
+    "name": [
+      "Chris/Conrad"
+    ],
+    "songs": [
+      {
+        "song": "Lead Me to the Cross"
+      }
+    ]
+  },
+  {
+    "name": [
+      "The Digital Age"
+    ],
+    "songs": [
+      {
+        "song": "Break Every Chain"
+      }
+    ]
+  },
+  {
+    "name": [
+      "David Crowder Band"
+    ],
+    "songs": [
+      {
+        "song": "How He Loves"
+      }
+    ]
+  },
+  {
+    "name": [
+      "Rhett Walker"
+    ],
+    "songs": [
+      {
+        "song": "When Mercy Found Me"
+      }
+    ]
+  },
+  {
+    "name": [
+      "JJ Weeks Band"
+    ],
+    "songs": [
+      {
+        "song": "Let Them See You"
+      }
+    ]
+  },
+  {
+    "name": [
+      "NF/Jeremiah Carlson"
+    ],
+    "songs": [
+      {
+        "song": "I'll Keep On"
+      }
+    ]
+  },
+  {
+    "name": [
+      "Tauren Wells/Jenn Johnson"
+    ],
+    "songs": [
+      {
+        "song": "Famous For (I Believe)"
+      }
+    ]
+  },
+  {
+    "name": [
+      "Zach Williams"
+    ],
+    "songs": [
+      {
+        "song": "Heaven Help Me"
+      },
+      {
+        "song": "Chain Breaker"
+      },
+      {
+        "song": "Old Church Choir"
+      },
+      {
+        "song": "Fear Is a Liar"
+      },
+      {
+        "song": "Survivor"
+      }
+    ]
+  },
+  {
+    "name": [
+      "Katy Nichole"
+    ],
+    "songs": [
+      {
+        "song": "In Jesus Name (God Of Possible)"
+      },
+      {
+        "song": "Please"
+      }
+    ]
+  },
+  {
+    "name": [
+      "Hillsong Young & Free/Melodie Wagner"
+    ],
+    "songs": [
+      {
+        "song": "As I Am - Live"
+      },
+      {
+        "song": "Indescribable - Live"
+      }
+    ]
+  },
+  {
+    "name": [
+      "Elevation Worship/Tauren Wells"
+    ],
+    "songs": [
+      {
+        "song": "Echo (feat. Tauren Wells)"
+      }
+    ]
+  },
+  {
+    "name": [
+      "Local Sound"
+    ],
+    "songs": [
+      {
+        "song": "Heartache"
+      },
+      {
+        "song": "Wild"
+      },
+      {
+        "song": "On My Side"
+      }
+    ]
+  },
+  {
+    "name": [
+      "Vineyard Kids/Kat Regester/David Plumb"
+    ],
+    "songs": [
+      {
+        "song": "We Shine"
+      }
+    ]
+  },
+  {
+    "name": [
+      "Anthony Evans"
+    ],
+    "songs": [
+      {
+        "song": "Ever Be"
+      }
+    ]
+  },
+  {
+    "name": [
+      "ELEVATION RHYTHM"
+    ],
+    "songs": [
+      {
+        "song": "EVERYTHING EVERYTHING"
+      },
+      {
+        "song": "WILD LOVE"
+      },
+      {
+        "song": "QUIET"
+      }
+    ]
+  },
+  {
+    "name": [
+      "Samm Henshaw/EARTHGANG"
+    ],
+    "songs": [
+      {
+        "song": "Church (feat. EARTHGANG)"
+      }
+    ]
+  },
+  {
+    "name": [
+      "GALLERY"
+    ],
+    "songs": [
+      {
+        "song": "Wind + Waves"
+      }
+    ]
+  },
+  {
+    "name": [
+      "Hillsong UNITED/Cole Walowac"
+    ],
+    "songs": [
+      {
+        "song": "Not Today - Remix"
+      }
+    ]
+  },
+  {
+    "name": [
+      "Tauren Wells/Steven Furtick"
+    ],
+    "songs": [
+      {
+        "song": "Close (feat. Steven Furtick)"
+      }
+    ]
+  },
+  {
+    "name": [
+      "GAWVI"
+    ],
+    "songs": [
+      {
+        "song": "With You"
+      }
+    ]
+  },
+  {
+    "name": [
+      "Planetshakers"
+    ],
+    "songs": [
+      {
+        "song": "Fall On Me - Live"
+      }
+    ]
+  },
+  {
+    "name": [
+      "Bizzle"
+    ],
+    "songs": [
+      {
+        "song": "Waiting on You"
+      }
+    ]
+  },
+  {
+    "name": [
+      "Joshua Micah"
+    ],
+    "songs": [
+      {
+        "song": "Watch Me Come To Life"
+      }
+    ]
+  },
+  {
+    "name": [
+      "Riley Clemmons"
+    ],
+    "songs": [
+      {
+        "song": "Free"
+      }
+    ]
+  },
+  {
+    "name": [
+      "ZOE Worship"
+    ],
+    "songs": [
+      {
+        "song": "Momentum"
+      }
+    ]
+  },
+  {
+    "name": [
+      "Cade Thompson"
+    ],
+    "songs": [
+      {
+        "song": "Provider"
+      }
+    ]
+  },
+  {
+    "name": [
+      "Urban Rescue"
+    ],
+    "songs": [
+      {
+        "song": "Song Of My Father"
+      }
+    ]
+  },
+  {
+    "name": [
+      "Brooke Ligertwood/Brandon Lake"
+    ],
+    "songs": [
+      {
+        "song": "Honey In The Rock - Live"
+      }
+    ]
+  },
+  {
+    "name": [
+      "Elevation Worship/Jonsal Barrientes"
+    ],
+    "songs": [
+      {
+        "song": "Same God (feat. Jonsal Barrientes)"
+      }
+    ]
+  },
+  {
+    "name": [
+      "GREENHOUSE Prayer Room/Circuit Rider Music/Olivia Leach/Aisha Skye"
+    ],
+    "songs": [
+      {
+        "song": "You Picked Me Up (So Good To Me) - Live"
+      }
+    ]
+  },
+  {
+    "name": [
+      "Maverick City Music/UPPERROOM/Dante Bowe/Maryanne J. George/Aaron Moses"
+    ],
+    "songs": [
+      {
+        "song": "I Thank God (feat. Dante Bowe, Maryanne Joshua George & Aaron Moses)"
+      }
+    ]
+  },
+  {
+    "name": [
+      "Shout Praises Kids"
+    ],
+    "songs": [
+      {
+        "song": "Every Move I Make"
+      }
+    ]
+  },
+  {
+    "name": [
+      "Brandon Lake"
+    ],
+    "songs": [
+      {
+        "song": "Gratitude"
+      }
+    ]
+  },
+  {
+    "name": [
+      "Hillsong UNITED/Brooke Ligertwood"
+    ],
+    "songs": [
+      {
+        "song": "Lead Me To The Cross"
+      }
+    ]
+  },
+  {
+    "name": [
+      "Elevation Worship/Maverick City Music/Naomi Raine/Brandon Lake"
+    ],
+    "songs": [
+      {
+        "song": "Used To This (feat. Naomi Raine & Brandon Lake)"
+      }
+    ]
+  },
+  {
+    "name": [
+      "Forrest Frank/Hulvey"
+    ],
+    "songs": [
+      {
+        "song": "no longer bound"
+      }
+    ]
+  },
+  {
+    "name": [
+      "Coby James"
+    ],
+    "songs": [
+      {
+        "song": "Brand New"
+      }
+    ]
+  },
+  {
+    "name": [
+      "Coby James/Evvie McKinney"
+    ],
+    "songs": [
+      {
+        "song": "Shackles (Praise You)"
+      }
+    ]
+  },
+  {
+    "name": [
+      "Laura Story"
+    ],
+    "songs": [
+      {
+        "song": "Till I Met You"
+      }
+    ]
+  },
+  {
+    "name": [
+      "Andrew Ripp"
+    ],
+    "songs": [
+      {
+        "song": "When You Fall in Love"
+      }
+    ]
+  },
+  {
+    "name": [
+      "SEU Worship/Chelsea Plank"
+    ],
+    "songs": [
+      {
+        "song": "Monday Morning Faith"
+      }
+    ]
+  },
+  {
+    "name": [
+      "ZOE Music"
+    ],
+    "songs": [
+      {
+        "song": "Be Okay"
+      }
+    ]
+  },
+  {
+    "name": [
+      "Dan Bremnes"
+    ],
+    "songs": [
+      {
+        "song": "Up Again"
+      }
+    ]
+  },
+  {
+    "name": [
+      "Cortes/Cass"
+    ],
+    "songs": [
+      {
+        "song": "DAILY"
+      }
+    ]
+  },
+  {
+    "name": [
+      "Beverly Ann"
+    ],
+    "songs": [
+      {
+        "song": "Dancing in the Sky"
+      }
+    ]
+  },
+  {
+    "name": [
+      "Hillsong Worship/Aodhán King"
+    ],
+    "songs": [
+      {
+        "song": "Touch Of Heaven - Live"
+      }
+    ]
+  },
+  {
+    "name": [
+      "JWLKRS Worship"
+    ],
+    "songs": [
+      {
+        "song": "Silence"
+      }
+    ]
+  },
+  {
+    "name": [
+      "Kane Brown/Katelyn Brown"
+    ],
+    "songs": [
+      {
+        "song": "Thank God"
+      }
+    ]
+  },
+  {
+    "name": [
+      "Jon Reddick"
+    ],
+    "songs": [
+      {
+        "song": "God, Turn It Around"
+      }
+    ]
+  },
+  {
+    "name": [
+      "Tasha Layton"
+    ],
+    "songs": [
+      {
+        "song": "Look What You've Done"
+      }
+    ]
+  },
+  {
+    "name": [
+      "CBC Worship/Phil Vega"
+    ],
+    "songs": [
+      {
+        "song": "Your Way Is Better (Live)"
+      }
+    ]
+  },
+  {
+    "name": [
+      "Hillside Recording/Diana Trout"
+    ],
+    "songs": [
+      {
+        "song": "All of my Life"
+      },
+      {
+        "song": "Abide in me"
+      }
+    ]
+  },
+  {
+    "name": [
+      "Simply Worship/Diana Trout"
+    ],
+    "songs": [
+      {
+        "song": "Open Hands"
+      }
+    ]
+  },
+  {
+    "name": [
+      "Simply Worship/Austin Ludwig"
+    ],
+    "songs": [
+      {
+        "song": "My Reward - Reimagined"
+      }
+    ]
+  },
+  {
+    "name": [
+      "Hope Darst"
+    ],
+    "songs": [
+      {
+        "song": "Never Walk Alone - Radio Edit"
+      },
+      {
+        "song": "Peace Be Still"
+      }
+    ]
+  },
+  {
+    "name": [
+      "Bethel Music/Hannah McClure/Amanda Cook"
+    ],
+    "songs": [
+      {
+        "song": "Precious Blood"
+      }
+    ]
+  },
+  {
+    "name": [
+      "Phil Wickham/Brandon Lake"
+    ],
+    "songs": [
+      {
+        "song": "Where I'm Standing Now (feat. Brandon Lake)"
+      }
+    ]
+  },
+  {
+    "name": [
+      "Steven Curtis Chapman/Brad Paisley/Tasha Cobbs Leonard/Lauren Alaina"
+    ],
+    "songs": [
+      {
+        "song": "Together (We'll Get Through This)"
+      }
+    ]
+  },
+  {
+    "name": [
+      "Switch"
+    ],
+    "songs": [
+      {
+        "song": "Letting Go"
+      }
+    ]
+  },
+  {
+    "name": [
+      "Hannah Kerr"
+    ],
+    "songs": [
+      {
+        "song": "Grave"
+      }
+    ]
+  },
+  {
+    "name": [
+      "Hillsong UNITED/Jad Gillies/TAYA"
+    ],
+    "songs": [
+      {
+        "song": "On Repeat"
+      }
+    ]
+  },
+  {
+    "name": [
+      "TAYA"
+    ],
+    "songs": [
+      {
+        "song": "Carry Me Home"
+      }
+    ]
+  },
+  {
+    "name": [
+      "Blanca/Tauren Wells"
+    ],
+    "songs": [
+      {
+        "song": "Something Better"
+      }
+    ]
+  },
+  {
+    "name": [
+      "LIN D"
+    ],
+    "songs": [
+      {
+        "song": "Anything"
+      }
+    ]
+  },
+  {
+    "name": [
+      "Tiffany Hudson/Steffany Gretzinger"
+    ],
+    "songs": [
+      {
+        "song": "Break The Bottle"
+      }
+    ]
+  },
+  {
+    "name": [
+      "Jesseca Toovey/Sam Hart"
+    ],
+    "songs": [
+      {
+        "song": "Grateful"
+      }
+    ]
+  },
+  {
+    "name": [
+      "We The Kingdom"
+    ],
+    "songs": [
+      {
+        "song": "Jesus Does"
+      },
+      {
+        "song": "Waking Up"
+      }
+    ]
+  },
+  {
+    "name": [
+      "Leanna Crawford"
+    ],
+    "songs": [
+      {
+        "song": "Truth I'm Standing On"
+      }
+    ]
+  },
+  {
+    "name": [
+      "Carrie Underwood"
+    ],
+    "songs": [
+      {
+        "song": "How Great Thou Art"
+      }
+    ]
+  },
+  {
+    "name": [
+      "Matt Maher/DOE"
+    ],
+    "songs": [
+      {
+        "song": "Joyful Noise (feat. DOE) - Live"
+      }
+    ]
+  },
+  {
+    "name": [
+      "Keith & Kristyn Getty/Skye Peterson"
+    ],
+    "songs": [
+      {
+        "song": "Take Shelter"
+      }
+    ]
+  },
+  {
+    "name": [
+      "Bethel Music/Josh Baldwin"
+    ],
+    "songs": [
+      {
+        "song": "Stand In Your Love - Radio Version"
+      }
+    ]
+  },
+  {
+    "name": [
+      "7eventh Time Down"
+    ],
+    "songs": [
+      {
+        "song": "God Is on the Move"
+      }
+    ]
+  },
+  {
+    "name": [
+      "Cory Asbury"
+    ],
+    "songs": [
+      {
+        "song": "Reckless Love"
+      },
+      {
+        "song": "The Father's House - Studio"
+      }
+    ]
+  },
+  {
+    "name": [
+      "Building 429"
+    ],
+    "songs": [
+      {
+        "song": "Where I Belong"
+      }
+    ]
+  },
+  {
+    "name": [
+      "Brandon Heath"
+    ],
+    "songs": [
+      {
+        "song": "Give Me Your Eyes"
+      }
+    ]
+  },
+  {
+    "name": [
+      "Hillsong Young & Free"
+    ],
+    "songs": [
+      {
+        "song": "Never Have I Ever"
+      }
+    ]
+  },
+  {
+    "name": [
+      "Cody Carnes"
+    ],
+    "songs": [
+      {
+        "song": "Run To The Father"
+      }
+    ]
+  },
+  {
+    "name": [
+      "Mack Brock"
+    ],
+    "songs": [
+      {
+        "song": "Even The Impossible - Studio Version"
+      }
+    ]
+  },
+  {
+    "name": [
+      "Stars Go Dim"
+    ],
+    "songs": [
+      {
+        "song": "You Are Loved"
+      }
+    ]
+  },
+  {
+    "name": [
+      "Zach Williams/Dolly Parton"
+    ],
+    "songs": [
+      {
+        "song": "There Was Jesus"
+      }
+    ]
+  },
+  {
+    "name": [
+      "Ryan Stevenson/Gabe Real"
+    ],
+    "songs": [
+      {
+        "song": "Eye of the Storm (feat. Gabe Real)"
+      }
+    ]
+  },
+  {
+    "name": [
+      "Kevin Quinn/Bailee Madison/Jahbril Cook/Kat Conner Sterling/Iain Tucker/The Cast Of Netflix's Film A Week Away"
+    ],
+    "songs": [
+      {
+        "song": "Awesome God / God Only Knows - Campfire Medley"
+      },
+      {
+        "song": "Big House"
+      }
+    ]
+  },
+  {
+    "name": [
+      "Maverick City Music/Chandler Moore/Steffany Gretzinger"
+    ],
+    "songs": [
+      {
+        "song": "Refiner"
+      }
+    ]
+  },
+  {
+    "name": [
+      "Kevin Quinn/Bailee Madison/Jahbril Cook/Kat Conner Sterling/The Cast Of Netflix's Film A Week Away"
+    ],
+    "songs": [
+      {
+        "song": "Good Enough"
+      }
+    ]
+  },
+  {
+    "name": [
+      "PonderSlime"
+    ],
+    "songs": [
+      {
+        "song": "Biriyani Scuffed"
+      },
+      {
+        "song": "Biriyani Scuffed"
+      }
+    ]
+  }
+]
