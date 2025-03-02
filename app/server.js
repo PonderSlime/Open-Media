@@ -129,6 +129,37 @@ app.get('/api/artists', (req, res) => {
 
 });
 
+app.get('/api/albums', async (req, res) => {
+    const metadataFilePath = path.join(__dirname, 'data', 'metadataList.json');
+    const albumsFilePath = path.join(__dirname, 'data', 'albums.json');
+
+    try {
+        const metadataData = fs.readFileSync(metadataFilePath, 'utf8');
+        const metadataList = JSON.parse(metadataData);
+
+        const albumsMap = {};
+
+        metadataList.forEach(metadata => {
+            const albumName = metadata.album || 'Unknown Album';
+            const songName = metadata.title || 'Unknown Title';
+
+            if (!albumsMap[albumName]) {
+                albumsMap[albumName] = { name: albumName, songs: [] };
+            }
+
+            albumsMap[albumName].songs.push({ song: songName });
+        });
+
+        const albumsList = Object.values(albumsMap);
+
+        fs.writeFileSync(albumsFilePath, JSON.stringify(albumsList, null, 2), 'utf8');
+
+        res.json(albumsList);
+    } catch (err) {
+        res.status(500).json({ error: err.message });
+    }
+});
+
 app.listen(port, () => {
   console.log(`Server running at http://localhost:${port}/`);
 });
