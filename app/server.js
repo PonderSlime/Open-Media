@@ -64,8 +64,10 @@ async function update_md() {
     const metadataList = await Promise.all(metadataPromises);
     console.log("Final metadata list: ", metadataList);
 
+    const uniqueMetadata = Array.from(new Set(metadataList.map(JSON.stringify))).map(JSON.parse);
+
     const outputFilePath = path.join(__dirname, 'data', 'metadataList.json');
-    fs.writeFile(outputFilePath, JSON.stringify(metadataList, null, 2), (err) => {
+    fs.writeFile(outputFilePath, JSON.stringify(uniqueMetadata, null, 2), (err) => {
         if (err) {
             res.status(500).json({ error: err.message });
             return;
@@ -115,7 +117,11 @@ app.get('/api/artists', (req, res) => {
                 artistsMap[artistName] = { name: artistName, songs: [] };
             }
 
-            artistsMap[artistName].songs.push({ song: songName });
+            // Use a Set to ensure unique songs
+            const songSet = new Set(artistsMap[artistName].songs.map(song => song.song));
+            if (!songSet.has(songName)) {
+                artistsMap[artistName].songs.push({ song: songName });
+            }
         });
 
         const artistsList = Object.values(artistsMap);
@@ -155,6 +161,43 @@ app.get('/api/albums', async (req, res) => {
         fs.writeFileSync(albumsFilePath, JSON.stringify(albumsList, null, 2), 'utf8');
 
         res.json(albumsList);
+    } catch (err) {
+        res.status(500).json({ error: err.message });
+    }
+});
+
+app.get('/api/genres', async (req, res) => {
+    const metadataFilePath = path.join(__dirname, 'data', 'metadataList.json');
+    const genresFilePath = path.join(__dirname, 'data', 'genres.json');
+
+    try {
+        const metadataData = fs.readFileSync(metadataFilePath, 'utf8');
+        const metadataList = JSON.parse(metadataData);
+
+        const genresMap = {};
+
+        metadataList.forEach(metadata => {
+            const genres = metadata.genre || ['Unknown Genre'];
+            const songName = metadata.title || 'Unknown Title';
+
+            genres.forEach(genre => {
+                if (!genresMap[genre]) {
+                    genresMap[genre] = { name: genre, songs: [] };
+                }
+
+                // Use a Set to ensure unique songs
+                const songSet = new Set(genresMap[genre].songs.map(song => song.song));
+                if (!songSet.has(songName)) {
+                    genresMap[genre].songs.push({ song: songName });
+                }
+            });
+        });
+
+        const genresList = Object.values(genresMap);
+
+        fs.writeFileSync(genresFilePath, JSON.stringify(genresList, null, 2), 'utf8');
+
+        res.json(genresList);
     } catch (err) {
         res.status(500).json({ error: err.message });
     }
