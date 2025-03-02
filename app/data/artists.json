@@ -1,5 +1,5 @@
 [
-    { "id": 1, "name": "Artist One" },
-    { "id": 2, "name": "Artist Two" },
-    { "id": 3, "name": "Artist Three" }
+    { "name": "Artist One" },
+    { "name": "Artist Two" },
+    { "name": "Artist", "songs": [{ "song": "song1name" }, { "song": "song2name"}] }
   ]

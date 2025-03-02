@@ -4,60 +4,66 @@ const path = require('path');
 var mm = require('musicmetadata');
 const app = express();
 const port = 3001;
-// Root route
-app.get('/', (req, res) => {
-  res.send('Welcome to the Music API');
-});
 
-app.get('/api/artists', (req, res) => {
-  const filePath = path.join(__dirname, 'data', 'artists.json');
-  fs.readFile(filePath, 'utf8', (err, data) => {
-    if (err) {
-      res.status(500).json({ error: err.message });
-      return;
-    }
-    const artists = JSON.parse(data);
-    res.json(artists);
-  });
-});
-
-
-async function save_md() {
-    const musicFolder = '/home/micah/Music'; // Update this path to your music folder
-    const files = fs.readdirSync(musicFolder);
-    console.log("files: ", files)
-    var metadataList = [];
-
-    for (const file of files) {
-        const filePath = path.join(musicFolder, file);
-        const stat = fs.statSync(filePath);
-
-        if (stat.isFile()) {
-            try {
-                var readableStream = fs.createReadStream(filePath);
-                var parser = mm(readableStream, function (err, metadata) {
-                    console.log(metadata);
-                    metadataList.push({
-                        file: file,
-                        title: metadata.title,
-                        artist: metadata.artist,
-                        album: metadata.album,
-                        genre: metadata.genre,
-                        year: metadata.year,
-                    });
-                    console.log("metadata list: ", metadataList);
-                    readableStream.close();
-                });                
-            } catch (err) {
-                console.error(`Error reading metadata for file ${file}:`, err.message);
-                metadataList.push({
-                file: file,
-                error: err.message
+// _______  __    __  .__   __.   ______ .___________. __    ______   .__   __.      _______.
+//|   ____||  |  |  | |  \ |  |  /      ||           ||  |  /  __  \  |  \ |  |     /       |
+//|  |__   |  |  |  | |   \|  | |  ,----'`---|  |----`|  | |  |  |  | |   \|  |    |   (----`
+//|   __|  |  |  |  | |  . `  | |  |         |  |     |  | |  |  |  | |  . `  |     \   \    
+//|  |     |  `--'  | |  |\   | |  `----.    |  |     |  | |  `--'  | |  |\   | .----)   |   
+//|__|      \______/  |__| \__|  \______|    |__|     |__|  \______/  |__| \__| |_______/    
+                                                                                           
+function getMetadata(filePath, fileName) {
+    return new Promise((resolve, reject) => {
+      const readableStream = fs.createReadStream(filePath);
+        mm(readableStream, (err, metadata) => {
+            readableStream.close();
+            if (err) {
+                resolve({ file: fileName, error: err.message });
+            } else {
+                resolve({
+                    file: fileName,
+                    title: metadata.title || 'Unknown Title',
+                    artist: metadata.artist || 'Unknown Artist',
+                    album: metadata.album || 'Unknown Album',
+                    genre: metadata.genre || 'Unknown Genre',
+                    year: metadata.year || 'Unknown Year',
                 });
             }
-        }
-    };
-    console.log("metadata list (check if still exists): ", metadataList);
+        });
+    });
+}
+async function update_md() {
+    const musicFolder = '/home/micah/Music';
+    const allowedExtensions = ['.mp3', '.mp4', '.ogg', '.flac', '.wma', '.wmv', '.m4a', '.wav'];
+
+    function getAllFiles(dirPath, arrayOfFiles) {
+        const files = fs.readdirSync(dirPath);
+        arrayOfFiles = arrayOfFiles || [];
+
+        files.forEach(file => {
+            const filePath = path.join(dirPath, file);
+            if (fs.statSync(filePath).isDirectory()) {
+                arrayOfFiles = getAllFiles(filePath, arrayOfFiles);
+            } else {
+                const fileExtension = path.extname(filePath).toLowerCase();
+                if (allowedExtensions.includes(fileExtension)) {
+                    arrayOfFiles.push(filePath);
+                }
+            }
+        });
+
+        return arrayOfFiles;
+    }
+    const files = getAllFiles(musicFolder);
+    console.log("files: ", files)
+    
+    const metadataPromises = files.map(filePath => {
+        const fileName = path.join(filePath);
+        return getMetadata(filePath, fileName);
+    });
+    const metadataList = await Promise.all(metadataPromises);
+    console.log("Final metadata list: ", metadataList);
+
     const outputFilePath = path.join(__dirname, 'data', 'metadataList.json');
     fs.writeFile(outputFilePath, JSON.stringify(metadataList, null, 2), (err) => {
         if (err) {
@@ -67,6 +73,19 @@ async function save_md() {
     });
 }
 
+update_md();
+
+//.______        ______    __    __  .___________. _______     _______.
+//|   _  \      /  __  \  |  |  |  | |           ||   ____|   /       |
+//|  |_)  |    |  |  |  | |  |  |  | `---|  |----`|  |__     |   (----`
+//|      /     |  |  |  | |  |  |  |     |  |     |   __|     \   \    
+//|  |\  \----.|  `--'  | |  `--'  |     |  |     |  |____.----)   |   
+//| _| `._____| \______/   \______/      |__|     |_______|_______/    
+                                                                     
+app.get('/', (req, res) => {
+    res.send('Welcome to the Music API');
+});
+
 app.get('/api/music-metadata', async (req, res) => {
     const filePath = path.join(__dirname, 'data', 'metadataList.json');
     fs.readFile(filePath, 'utf8', (err, data) => {
@@ -75,9 +94,21 @@ app.get('/api/music-metadata', async (req, res) => {
           return;
         }
         res.json(JSON.parse(data));
-      });
+    });
 });
-save_md();
+
+app.get('/api/artists', (req, res) => {
+    const filePath = path.join(__dirname, 'data', 'artists.json');
+    fs.readFile(filePath, 'utf8', (err, data) => {
+        if (err) {
+            res.status(500).json({ error: err.message });
+            return;
+        }
+        const artists = JSON.parse(data);
+        res.json(artists);
+    });
+});
+
 app.listen(port, () => {
   console.log(`Server running at http://localhost:${port}/`);
 });
