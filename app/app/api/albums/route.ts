@@ -17,11 +17,13 @@ export async function GET() {
             const albumName = metadata.album || 'Unknown Album';
             const songName = metadata.title || 'Unknown Title';
             const fileName = metadata.file;
+            const imageData = metadata.image;
+
             if (!albumsMap[albumName]) {
                 albumsMap[albumName] = { name: albumName, songs: [] };
             }
 
-            albumsMap[albumName].songs.push({ song: songName, file: fileName });
+            albumsMap[albumName].songs.push({ song: songName, file: fileName, image: imageData });
         });
 
         const albumsList = Object.values(albumsMap);

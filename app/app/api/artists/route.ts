@@ -16,6 +16,7 @@ export async function GET() {
             const artistName = metadata.artist || 'Unknown Artist';
             const songName = metadata.title || 'Unknown Title';
             const fileName = metadata.file;
+            const imageData = metadata.image;
 
             if (!artistsMap[artistName]) {
                 artistsMap[artistName] = { name: artistName, songs: [] };
@@ -24,7 +25,7 @@ export async function GET() {
             // Use a Set to ensure unique songs
             const songSet = new Set(artistsMap[artistName].songs.map(song => song.song));
             if (!songSet.has(songName)) {
-                artistsMap[artistName].songs.push({ song: songName, file: fileName });
+                artistsMap[artistName].songs.push({ song: songName, file: fileName, image: imageData });
             }
         });
 

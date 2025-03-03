@@ -2,7 +2,7 @@
 import React, { useEffect, useState } from "react";
 import { useParams } from "next/navigation"; // ✅ Use useParams instead of useRouter
 import PlaylistItem from "@/components/SongListItem";
-
+import MusicPlayer from "@/components/MusicPlayer";
 interface Song {
   song: string;
   file: string;
@@ -37,13 +37,13 @@ const GenrePage: React.FC = () => {
   if (!genre) {
     return <p>Loading...</p>;
   }
-
   return (
     <div>
       <h1>{genre.name}</h1>
-      <PlaylistItem albumName={genre.name} songs={genre.songs} route="songs" />
+      <MusicPlayer songs={genre.songs} album={genre.name}/>
     </div>
   );
+  
 };
 
 export default GenrePage;

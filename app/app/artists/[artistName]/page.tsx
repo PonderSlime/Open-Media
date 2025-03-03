@@ -2,7 +2,7 @@
 import React, { useEffect, useState } from "react";
 import { useParams } from "next/navigation";
 import PlaylistItem from "@/components/SongListItem";
-
+import MusicPlayer from "@/components/MusicPlayer";
 interface Song {
   song: string;
   file: string;
@@ -37,13 +37,13 @@ const ArtistPage: React.FC = () => {
   if (!artist) {
     return <p>Loading...</p>;
   }
-
   return (
     <div>
       <h1>{artist.name}</h1>
-      <PlaylistItem albumName={artist.name} songs={artist.songs} route="songs" />
+      <MusicPlayer songs={artist.songs} album={artist.name}/>
     </div>
   );
+  
 };
 
 export default ArtistPage;

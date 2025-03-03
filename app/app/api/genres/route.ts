@@ -17,6 +17,7 @@ export async function GET() {
             const genres = metadata.genre || ['Unknown Genre'];
             const songName = metadata.title || 'Unknown Title';
             const fileName = metadata.file;
+            const imageData = metadata.image;
 
             genres.forEach(genre => {
                 if (!genresMap[genre]) {
@@ -26,7 +27,7 @@ export async function GET() {
                 // Use a Set to ensure unique songs
                 const songSet = new Set(genresMap[genre].songs.map(song => song.song));
                 if (!songSet.has(songName)) {
-                    genresMap[genre].songs.push({ song: songName, file: fileName });
+                    genresMap[genre].songs.push({ song: songName, file: fileName, image: imageData });
                 }
             });
         });

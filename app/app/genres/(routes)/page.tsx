@@ -7,7 +7,7 @@ interface Genre {
   songs: { song: string; file: string }[];
 }
 
-const Playlists: React.FC = () => {
+const GenresPage: React.FC = () => {
   const [genres, setGenres] = useState<Genre[]>([]);
 
   useEffect(() => {
@@ -20,16 +20,16 @@ const Playlists: React.FC = () => {
 
   return (
     <div>
-      <h1>Playlists</h1>
+      <h1>Genres</h1>
       {genres.length > 0 ? (
         genres.map((genres, index) => (
           <PlaylistItem key={index} albumName={genres.name} songs={genres.songs} route="genres" />
         ))
       ) : (
-        <p>List of playlists will be displayed here.</p>
+        <p>List of genres will be displayed here.</p>
       )}
     </div>
   );
 };
 
-export default Playlists;
+export default GenresPage;
