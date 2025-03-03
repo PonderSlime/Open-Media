@@ -2,28 +2,28 @@
 import React, { useEffect, useState } from 'react';
 import PlaylistItem from '@/components/PlaylistItem';
 
-interface Album {
+interface Genre {
   name: string;
   songs: { song: string; file: string }[];
 }
 
 const Playlists: React.FC = () => {
-  const [albums, setAlbums] = useState<Album[]>([]);
+  const [genres, setGenres] = useState<Genre[]>([]);
 
   useEffect(() => {
     // Fetch the albums data from the server
-    fetch('/api/albums')
+    fetch('/api/genres')
       .then(response => response.json())
-      .then(data => setAlbums(data))
-      .catch(error => console.error('Error fetching albums:', error));
+      .then(data => setGenres(data))
+      .catch(error => console.error('Error fetching genre:', error));
   }, []);
 
   return (
     <div>
       <h1>Playlists</h1>
-      {albums.length > 0 ? (
-        albums.map((album, index) => (
-          <PlaylistItem key={index} albumName={album.name} songs={album.songs} route="playlists" />
+      {genres.length > 0 ? (
+        genres.map((genres, index) => (
+          <PlaylistItem key={index} albumName={genres.name} songs={genres.songs} route="genres" />
         ))
       ) : (
         <p>List of playlists will be displayed here.</p>

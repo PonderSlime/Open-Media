@@ -1,6 +1,6 @@
 import Link from 'next/link';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faHome, faMusic, faList } from '@fortawesome/free-solid-svg-icons';
+import { faHome, faPalette, faPager, faCompactDisc } from '@fortawesome/free-solid-svg-icons';
 import styles from './Sidebar.module.css';
 
 const Sidebar: React.FC = () => {
@@ -21,15 +21,23 @@ const Sidebar: React.FC = () => {
                         <li>
                             <a href="/artists">
                                 
-                                    <FontAwesomeIcon icon={faMusic} className={`h-6 w-6 ${styles.icon}`} />
+                                    <FontAwesomeIcon icon={faPalette} className={`h-6 w-6 ${styles.icon}`} />
                                     <span className={styles.text}>Artists</span>
+                                
+                            </a>
+                        </li>
+                        <li>
+                            <a href="/genres">
+                                
+                                    <FontAwesomeIcon icon={faPager} className={`h-6 w-6 ${styles.icon}`} />
+                                    <span className={styles.text}>Genres</span>
                                 
                             </a>
                         </li>
                         <li>
                             <a href="/playlists">
                                 
-                                    <FontAwesomeIcon icon={faList} className={`h-6 w-6 ${styles.icon}`} />
+                                    <FontAwesomeIcon icon={faCompactDisc} className={`h-6 w-6 ${styles.icon}`} />
                                     <span className={styles.text}>Playlists</span>
                                 
                             </a>
