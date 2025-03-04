@@ -39,7 +39,7 @@ const AlbumPage: React.FC = () => {
   }
   return (
     <div>
-      <h1>{album.name}</h1>
+      {/*<h1>{album.name}</h1>*/}
       <MusicPlayer songs={album.songs} album={album.name}/>
     </div>
   );

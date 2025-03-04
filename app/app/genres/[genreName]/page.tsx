@@ -39,7 +39,7 @@ const GenrePage: React.FC = () => {
   }
   return (
     <div>
-      <h1>{genre.name}</h1>
+      {/*<h1>{genre.name}</h1>*/}
       <MusicPlayer songs={genre.songs} album={genre.name}/>
     </div>
   );

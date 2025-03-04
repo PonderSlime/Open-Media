@@ -1,6 +1,6 @@
 import React, { useState, useRef, useEffect } from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faPlay, faPause, faStepForward, faStepBackward, faRandom } from '@fortawesome/free-solid-svg-icons';
+import { faPlay, faPause, faStepForward, faStepBackward, faRandom, faVolumeUp } from '@fortawesome/free-solid-svg-icons';
 import PlaylistItem from '@/components/SongListItem'; // Import the PlaylistItem component
 
 interface Song {
@@ -22,6 +22,7 @@ const MusicPlayer: React.FC<MusicPlayerProps> = ({ songs, album }) => {
   const [playedSongs, setPlayedSongs] = useState<Song[]>([]);
   const [currentTime, setCurrentTime] = useState(0);
   const [duration, setDuration] = useState(0);
+  const [volume, setVolume] = useState(1);
   const audioRef = useRef<HTMLAudioElement>(null);
 
   useEffect(() => {
@@ -100,6 +101,14 @@ const MusicPlayer: React.FC<MusicPlayerProps> = ({ songs, album }) => {
     }
   };
 
+  const handleVolumeChange = (event: React.ChangeEvent<HTMLInputElement>) => {
+    const newVolume = Number(event.target.value);
+    setVolume(newVolume);
+    if (audioRef.current) {
+      audioRef.current.volume = newVolume;
+    }
+  };
+
   const setCurrentSong = (index: number) => {
     setCurrentSongIndex(index);
     setIsPlaying(true);
@@ -114,7 +123,7 @@ const MusicPlayer: React.FC<MusicPlayerProps> = ({ songs, album }) => {
 
   return (
     <div>
-      <div className="fixed bottom-0 left-0 right-0 flex flex-col items-center p-4 bg-gray-800 text-white shadow-md" style={{ marginLeft: '70px' }}>
+      <div className="fixed bottom-0 left-0 right-0 flex items-center justify-between p-4 bg-gray-900 text-white shadow-md" style={{ marginLeft: '70px' }}>
         <audio
           ref={audioRef}
           src={currentSong?.file}
@@ -125,37 +134,52 @@ const MusicPlayer: React.FC<MusicPlayerProps> = ({ songs, album }) => {
           onTimeUpdate={handleTimeUpdate}
           autoPlay
         />
-        <div className="flex gap-4 mb-4">
-          <button onClick={prevSongHandler} className="text-xl">
-            <FontAwesomeIcon icon={faStepBackward} />
-          </button>
-          <button onClick={playPauseHandler} className="text-xl">
-            <FontAwesomeIcon icon={isPlaying ? faPause : faPlay} />
-          </button>
-          <button onClick={nextSongHandler} className="text-xl">
-            <FontAwesomeIcon icon={faStepForward} />
-          </button>
-          <button onClick={toggleShuffle} className={`text-xl ${isShuffle ? 'text-green-500' : ''}`}>
-            <FontAwesomeIcon icon={faRandom} />
-          </button>
+        <div className="flex items-center">
+          {currentSong?.image && (
+            <img src={currentSong.image} alt="Album Art" className="w-16 h-16 object-cover mr-4" />
+          )}
+          <div className="flex flex-col">
+            <span className="text-sm font-medium">{currentSong?.song}</span>
+            <span className="text-xs text-gray-400">{currentSong?.artist}</span>
+          </div>
         </div>
-        <div className="w-full flex items-center">
+        <div className="flex flex-col items-center flex-grow mx-4">
+          <div className="flex gap-4 mb-2">
+            <button onClick={prevSongHandler} className="text-xl">
+              <FontAwesomeIcon icon={faStepBackward} />
+            </button>
+            <button onClick={playPauseHandler} className="text-2xl">
+              <FontAwesomeIcon icon={isPlaying ? faPause : faPlay} />
+            </button>
+            <button onClick={nextSongHandler} className="text-xl">
+              <FontAwesomeIcon icon={faStepForward} />
+            </button>
+            <button onClick={toggleShuffle} className={`text-xl ${isShuffle ? 'text-green-500' : ''}`}>
+              <FontAwesomeIcon icon={faRandom} />
+            </button>
+          </div>
+          <div className="w-full flex items-center">
+            <input
+              type="range"
+              min="0"
+              max={duration}
+              value={currentTime}
+              onChange={handleProgressChange}
+              className="w-full"
+            />
+          </div>
+        </div>
+        <div className="flex items-center">
+          <FontAwesomeIcon icon={faVolumeUp} className="text-xl mr-2" />
           <input
             type="range"
             min="0"
-            max={duration}
-            value={currentTime}
-            onChange={handleProgressChange}
-            className="w-full"
+            max="1"
+            step="0.01"
+            value={volume}
+            onChange={handleVolumeChange}
+            className="w-24"
           />
-        </div>
-        {currentSong?.image && (
-          <div className="mt-2">
-            <img src={currentSong.image} alt="Album Art" className="w-16 h-16 object-cover" />
-          </div>
-        )}
-        <div className="text-center mt-2">
-          <h3 className="text-lg font-semibold">{currentSong?.song}</h3>
         </div>
       </div>
       <PlaylistItem albumName={album} songs={songs} route="/" setCurrentSong={setCurrentSong} />

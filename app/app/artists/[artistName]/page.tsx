@@ -39,7 +39,7 @@ const ArtistPage: React.FC = () => {
   }
   return (
     <div>
-      <h1>{artist.name}</h1>
+      {/*<h1>{artist.name}</h1>*/}
       <MusicPlayer songs={artist.songs} album={artist.name}/>
     </div>
   );
