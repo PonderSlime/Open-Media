@@ -123,7 +123,7 @@ const MusicPlayer: React.FC<MusicPlayerProps> = ({ songs, album }) => {
 
   return (
     <div>
-      <div className="fixed bottom-0 left-0 right-0 flex items-center justify-between p-4 bg-gray-900 text-white shadow-md" style={{ marginLeft: '70px' }}>
+      <div className="fixed bottom-0 left-0 right-0 bg-gray-900 text-white shadow-md" style={{ marginLeft: '70px' }}>
         <audio
           ref={audioRef}
           src={currentSong?.file}
@@ -134,52 +134,54 @@ const MusicPlayer: React.FC<MusicPlayerProps> = ({ songs, album }) => {
           onTimeUpdate={handleTimeUpdate}
           autoPlay
         />
-        <div className="flex items-center">
-          {currentSong?.image && (
-            <img src={currentSong.image} alt="Album Art" className="w-16 h-16 object-cover mr-4" />
-          )}
-          <div className="flex flex-col">
-            <span className="text-sm font-medium">{currentSong?.song}</span>
-            <span className="text-xs text-gray-400">{currentSong?.artist}</span>
-          </div>
-        </div>
-        <div className="flex flex-col items-center flex-grow mx-4">
-          <div className="flex gap-4 mb-2">
-            <button onClick={prevSongHandler} className="text-xl">
-              <FontAwesomeIcon icon={faStepBackward} />
-            </button>
-            <button onClick={playPauseHandler} className="text-2xl">
-              <FontAwesomeIcon icon={isPlaying ? faPause : faPlay} />
-            </button>
-            <button onClick={nextSongHandler} className="text-xl">
-              <FontAwesomeIcon icon={faStepForward} />
-            </button>
-            <button onClick={toggleShuffle} className={`text-xl ${isShuffle ? 'text-green-500' : ''}`}>
-              <FontAwesomeIcon icon={faRandom} />
-            </button>
-          </div>
-          <div className="w-full flex items-center">
-            <input
-              type="range"
-              min="0"
-              max={duration}
-              value={currentTime}
-              onChange={handleProgressChange}
-              className="w-full"
-            />
-          </div>
-        </div>
-        <div className="flex items-center">
-          <FontAwesomeIcon icon={faVolumeUp} className="text-xl mr-2" />
+        <div className="w-full flex items-center px-4 mb-2">
           <input
             type="range"
             min="0"
-            max="1"
-            step="0.01"
-            value={volume}
-            onChange={handleVolumeChange}
-            className="w-24"
+            max={duration}
+            value={currentTime}
+            onChange={handleProgressChange}
+            className="w-full"
           />
+        </div>
+        <div className="flex items-center justify-between px-4 pb-4">
+          <div className="flex items-center">
+            {currentSong?.image && (
+              <img src={currentSong.image} alt="Album Art" className="w-16 h-16 object-cover mr-4 rounded-md transition-all duration-300 hover:rounded-xl" />
+            )}
+            <div className="flex flex-col">
+              <span className="text-sm font-medium">{currentSong?.song}</span>
+              <span className="text-xs text-gray-400">{currentSong?.artist}</span>
+            </div>
+          </div>
+          <div className="flex-grow flex justify-center">
+            <div className="flex gap-4 mb-2">
+              <button onClick={prevSongHandler} className="text-xl p-2 rounded-full transition-all duration-300 hover:bg-gray-700">
+                <FontAwesomeIcon icon={faStepBackward} />
+              </button>
+              <button onClick={playPauseHandler} className="text-2xl p-2 rounded-full transition-all duration-300 hover:bg-gray-700">
+                <FontAwesomeIcon icon={isPlaying ? faPause : faPlay} />
+              </button>
+              <button onClick={nextSongHandler} className="text-xl p-2 rounded-full transition-all duration-300 hover:bg-gray-700">
+                <FontAwesomeIcon icon={faStepForward} />
+              </button>
+              <button onClick={toggleShuffle} className={`text-xl p-2 rounded-full transition-all duration-300 hover:bg-gray-700 ${isShuffle ? 'text-green-500' : ''}`}>
+                <FontAwesomeIcon icon={faRandom} />
+              </button>
+            </div>
+          </div>
+          <div className="flex items-center">
+            <FontAwesomeIcon icon={faVolumeUp} className="text-xl mr-2" />
+            <input
+              type="range"
+              min="0"
+              max="1"
+              step="0.01"
+              value={volume}
+              onChange={handleVolumeChange}
+              className="w-24"
+            />
+          </div>
         </div>
       </div>
       <PlaylistItem albumName={album} songs={songs} route="/" setCurrentSong={setCurrentSong} />
